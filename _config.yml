@@ -2,14 +2,21 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
-description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+title: # the website title (if blank, full name will be used instead)
+first_name: Ibrahim 
+middle_name: A.
+last_name: Imam
+contact_note:  |
+  Ibrahim A. Imam
+  Ph.D. Candidate in Chemical Engineering
+  University of Kentucky
+  Email: imamabiodunibrahim@gmail.com
+  Focus: Molecular Mechanics & Machine Learning for Molecular Discovery
+
+description: Hi, I’m Ibrahim A. Imam — a Ph.D. candidate in Chemical Engineering at the University of Kentucky, Lexington, where I develop computational pipelines that fuse molecular mechanics with machine learning to accelerate molecular discovery.
+  
+  My work sits at the intersection of physics-based simulation (molecular docking, molecular dynamics, free energy calculations) and AI-driven prediction for high-throughput screening, mechanistic insight, and rational design of molecules.> # the ">" symbol means to ignore newlines until "footer_text:"
+
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -73,7 +80,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 # For Google Analytics, see https://support.google.com/analytics/answer/10447272?hl=en&ref_topic=14088998&sjid=5129943941510317771-SA#zippy=%2Cgoogle-sites
 # and follow the instructions for Google Sites. You will need to create a Google Analytics property and copy the Google tag ID.
-google_analytics: # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: G-XTT8KFYQMX # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 cronitor_analytics: # cronitor RUM analytics site ID (format: XXXXXXXXX)
 pirsch_analytics: # your Pirsch analytics site ID (length 32 characters)
 openpanel_analytics: # your Openpanel analytics client ID (format: XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
