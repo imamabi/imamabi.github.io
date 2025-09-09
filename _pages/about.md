@@ -29,14 +29,12 @@ latest_posts:
 
   I’m Ibrahim Imam, a Ph.D. Candidate in Chemical Engineering at the University of Kentucky, Lexington. My research sits at the dynamic intersection of computational chemistry, molecular simulation, and machine learning, to accelerate molecular discovery.
 
-  Research Focus
 I develop hybrid computational pipelines that fuse physics-based molecular mechanics (molecular docking, molecular dynamics, free energy calculations) with modern machine learning (e.g., protein language models, ensemble learning) to solve high-impact problems in materials and drug discovery.
 
 My current work focuses on:
 - Discovering functional peptides by integrating protein language models (PLM) with MD simulations — generating functional candidates in silico before wet-lab validation.
 - Repurposing FDA-approved drugs via ML-accelerated virtual screening — combining ensemble model predictions with molecular docking and simulation to prioritize high-affinity candidates, and maintain biochemical accuracy without sacrificing mechanistic insight. 
 
-Future Goals 
-
+Future Goals: 
 Beyond my Ph.D., I aim to continue pushing the frontier of AI-augmented molecular science — whether in an industry R&D lab (biotech, pharma, or AI-for-science startups), a national research institution, or a postdoctoral role focused on method development. I’m especially interested in roles that value translational impact: turning computational insight into real-world solutions for drug discovery, protein engineering, or biomolecular design.
 

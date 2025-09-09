@@ -6,16 +6,10 @@ title: # the website title (if blank, full name will be used instead)
 first_name: Ibrahim 
 middle_name: A.
 last_name: Imam
-contact_note:  |
-  Ibrahim A. Imam
-  Ph.D. Candidate in Chemical Engineering
-  University of Kentucky
-  Email: imamabiodunibrahim@gmail.com
-  Focus: Molecular Mechanics & Machine Learning for Molecular Discovery
+contact_note: "Email:imamabiodunibrahim@gmail.com"
 
-description: Hi, I’m Ibrahim A. Imam — a Ph.D. candidate in Chemical Engineering at the University of Kentucky, Lexington, where I develop computational pipelines that fuse molecular mechanics with machine learning to accelerate molecular discovery.
-  
-  My work sits at the intersection of physics-based simulation (molecular docking, molecular dynamics, free energy calculations) and AI-driven prediction for high-throughput screening, mechanistic insight, and rational design of molecules.> # the ">" symbol means to ignore newlines until "footer_text:"
+description: > 
+  Ph.D. candidate in Chemical Engineering focusing on computational pipelines that fuse molecular mechanics with machine learning for accelerated molecular discovery.
 
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
