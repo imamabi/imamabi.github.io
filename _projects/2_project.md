@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: Markey Cancer Center Research Day (MCCRD)
+description: A poster presentation titled L718Q and L792H Mutations of EGFR Induced Drug Resistance by Forming Additional Hydrogen Bond in the Active Pocket. 
+img: assets/img/poster1.jpg
 importance: 2
 category: work
 giscus_comments: true

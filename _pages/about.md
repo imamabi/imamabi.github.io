@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: Research Assistant (Ph.D. Candidate) in <a href='https://www.shaoresearch.com/about-me'>Shao Reasearch Group at the University of Kentucky</a>. 
 
@@ -13,19 +13,21 @@ profile:
     <p>UK Main Campus</p>
     <p>Lexington, KY 40506</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 3 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+
+
 
   I’m Ibrahim Imam, a Ph.D. Candidate in Chemical Engineering at the University of Kentucky, Lexington. My research sits at the dynamic intersection of computational chemistry, molecular simulation, and machine learning, to accelerate molecular discovery.
 
@@ -37,3 +39,8 @@ My current work focuses on:
  
 Beyond my Ph.D., I aim to continue pushing the frontier of AI-augmented molecular science — whether in an industry R&D lab (biotech, pharma, or AI-for-science startups), a national research institution, or a postdoctoral role focused on method development. I’m especially interested in roles that value translational impact: turning computational insight into real-world solutions for drug discovery, protein engineering, or biomolecular design.
 
+
+When I am not modelling or coding, I enjoy:
+- Hiking
+- Doing sport - soccer, table tennis
+- Playing games - chess

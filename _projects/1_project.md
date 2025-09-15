@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: AIChE 2023
+description: A talk on mechanistic insight on how certain mutations induce drug resistance in EGFR.
+img: assets/img/talk2.jpg
 importance: 1
 category: work
 related_publications: true
