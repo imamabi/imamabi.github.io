@@ -23,3 +23,8 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+/* Custom style for project category headings */
+h2.category {
+  color: #333333 !important; /* This is a very dark gray, close to black */
+}

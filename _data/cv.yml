@@ -2,96 +2,146 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Ibrahim Abiodun Imam
+    - name: Location
+      value: Lexington, KY, USA
+    - name: Address
+      value: 1608 University Ct, Apt B313, Lexington, KY 40503
+    - name: Phone
+      value: +1 (859) 693 6731
+    - name: Email
+      value: imamabiodunibrahim@gmail.com
+    - name: Academic Email
+      value: iaim223@uky.edu
+    - name: LinkedIn
+      value: <a href="https://www.linkedin.com/in/iaimam" target="_blank">iaimam</a>
+    - name: GitHub
+      value: <a href="https://github.com/imamabi" target="_blank">@imamabi</a>
+    - name: Google Scholar
+      value: <a href="https://scholar.google.com/citations?user=_xCno5oAAAAJ" target="_blank">Scholar profile</a>
+
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D., Chemical Engineering
+      institution: University of Kentucky, Lexington, KY, USA
+      year: Dec 2026 
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - GPA "3.92/4.00"
+    - title: B.Eng., Chemical Engineering (BS equivalent)
+      institution: Federal University of Technology, Minna, Nigeria
+      year: Nov 2017
       description:
-        - Description 1.
-        - Description 2.
+        - GPA "3.85/4.00"
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Research Assistant
+      institution: University of Kentucky, Lexington, KY
+      year: "Aug 2022-Present"
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developed a multi-scale modeling pipeline integrating MD and deep learning (PyTorch) for small molecules and peptides; resulted in 2 peer-reviewed publications.
+        - Curated and preprocessed small-molecule/protein datasets for docking, MD, and ML; improved prediction accuracy by ~10%.
+        - Performed unbiased and enhanced-sampling MD (well-tempered metadynamics, umbrella sampling) to study mutation-induced drug resistance and functional loss in proteins.
+        - Automated HPC workflows (Python/Bash; SLURM) for submission/monitoring/post-processing, reducing simulation setup time by ~45%.
+        - Collaborated with experimental teams on drug repurposing for EGFR-positive cancer; translated in-silico rankings into testable hypotheses.
+
+    - title: Graduate Research Fellow (Applied Mathematics & Computational Research)
+      institution: Lawrence Berkeley National Laboratory, Berkeley, CA
+      year: "Jun-Aug 2023"
       description:
-        - Description 1.
-        - Description 2.
+        - Enhanced NWChemEx workflows for biochemical systems; contributed input-generation utilities and scaling optimizations across nodes.
+        - Investigated EGFR mutation–driven resistance via quantum chemistry (ORCA/NWChemEx) integrated with MD; tuned theory levels, basis sets, and SCF criteria.
+        - Built automated HPC pipelines (Python/Bash) for parameter sweeps and post-processing, reducing idle wall-clock time and improving throughput.
+        - Performed benchmarking and validation against reference datasets; documented results and presented to the AMCR group.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title: Graduate-Engineer Management Trainee
+      institution: Flour Mills of Nigeria (FMN) Plc — Ibadan/Lagos, Nigeria
+      year: "Feb-Aug 2022"
       description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+        - Supported daily operations and process optimization; coordinated cross-functional improvements.
+        - Analyzed production data to identify bottlenecks; prepared technical reports, PFDs, and mass balances.
+        - Ensured compliance with safety and quality standards; mentored junior engineers.
+    - title: Assistant Plant Engineer
+      institution: Air Separation Nigeria Limited — Plateau State, Nigeria
+      year: "Jan 2020-Feb 2022"
+      description:
+        - Supervised/optimized cryogenic air separation to produce high-purity O₂/N₂ (liquid and gas).
+        - Implemented process control strategies; performed RCA/troubleshooting for deviations and equipment issues.
+        - Provided technical support for AirSep PSA plants nationwide; led preventive maintenance programs.
+        - Authored technical reports and energy/mass balance documents; ensured safety and environmental compliance.
+        - Trained plant personnel on advanced chemical engineering principles and best practices.
+    - title: Graduate Research Assistant
+      institution: University of Uyo, Akwa Ibom, Nigeria
+      year: "Apr 2018-Dec 2019"
+      description:
+        - Conducted research in pollution control and sustainable environmental remediation.
+        - Designed/ran experiments; performed statistical analyses; prepared proposals and progress reports.
+        - Presented findings at academic seminars; assisted with undergraduate teaching and lab sessions; mentored students.
+- title: Workshops & Training
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Virtual School on Machine Learning for Molecules — 9th i-CoMSE Workshop
+      institution: NSF
+      year: Apr 2025
+      description:
+        - Data cleaning/imputation; molecular featurization; ML & DL for molecules
+    - title: MDAnalysis / MolSSI Workshop
+      institution: Arizona State University; MDAnalysis & Molecular Sciences Software Institute
+      year: Jun 2024
+      description:
+        - Software development practices; software version control
+    - title: Methods for Enhanced Sampling (Virtual) — 3rd i-CoMSE Workshop
+      institution: NSF
+      year: Apr 2023
+      description:
+        - Umbrella sampling; metadynamics; replica exchange
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Machine Learning & Data Science
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Supervised/unsupervised modeling; feature engineering; model validation (precision/recall/F1, ROC-AUC, CV)
+        - scikit-learn, XGBoost, PyTorch; experiment tracking & reproducible workflows
+    - title: Cheminformatics & CADD
       items:
-        - Description 1.
-        - Description 2.
+        - RDKit, Open Babel; scaffold hopping; similarity search & fingerprinting; QSAR baselines
+        - Docking & ranking (AutoDock Vina); ligand/protein prep; basic ADMET awareness
+    - title: Molecular Modeling & Simulation
+      items:
+        - GROMACS, OpenMM; peptide/protein & small-molecule MD; structure prep (PyMOL, Avogadro)
+        - Analysis: SASA, H-bonds, RMSD/RMSF, PMF; interfacial hydration & anti-adhesion metrics
+    - title: Free Energy & Enhanced Sampling
+      items:
+        - FEP, TI, MBAR; MM/GBSA
+        - PLUMED; well-tempered metadynamics; umbrella sampling; uncertainty/convergence checks
+    - title: Materials & Process Engineering
+      items:
+        - Mass/energy balances; unit operations; reactor design; process modelling
+        - Coatings & surfaces (hydration-layer design, antifouling); DoE basics & scale-up mindset
+    - title: Programming & Compute
+      items:
+        - Python, R, Bash; Git/GitHub; Linux; HPC job scripts (e.g., SLURM)
+        - Data pipelines; automation; documentation & version control
+    - title: Quality, Safety & Communication
+      items:
+        - Scientific writing (manuscripts, reports, SOPs); clear presentations & mentoring
+        - Data integrity & good documentation practices; basic GLP/GMP awareness
 
-- title: Other Interests
+- title: Memberships
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - ACM  – Graduate Member (2025)
+    - NOBCChE — Graduate Student Member (2024  – now)
+    - AIChE — Graduate Student Member (2023 – now)
+
+- title: Languages
+  type: list
+  contents:
+    - English — Proficient
+    - Yoruba — Native
+    - Hausa — Native
+
