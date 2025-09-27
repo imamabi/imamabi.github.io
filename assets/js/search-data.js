@@ -17,21 +17,14 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+          title: "Projects",
+          description: "A showcase of my key research projects in machine learning and molecular modelling.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-cv",
-          title: "cv",
+          title: "CV",
           description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
           section: "Navigation",
           handler: () => {
@@ -39,33 +32,12 @@ ninja.data = [{
           },
         },{id: "nav-talks-amp-posters",
           title: "Talks &amp; Posters",
-          description: "Where I’ve shared my research: conferences, technical posters, and invited talks — translating complex computational insights into actionable science for peers and cross-functional teams.",
+          description: "A list of my presentations and posters at conferences and symposiums.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/people/";
-          },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-a-post-with-plotly-js",
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -444,7 +416,47 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-aiche-2023",
+          section: "News",},{id: "projects-novel-peptide-sequence-selection-using-plms",
+          title: 'Novel Peptide Sequence Selection using PLMs',
+          description: "Identifying diverse peptide sequences from a high-throughput screening of a microbiome library.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/01_ml_peptide_selection/";
+            },},{id: "projects-md-validation-of-antibiofouling-peptides",
+          title: 'MD Validation of Antibiofouling Peptides',
+          description: "Validating the interfacial properties of computationally predicted antibiofouling peptides.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/02_md_validation/";
+            },},{id: "projects-high-throughput-screening-for-antibiofouling-peptides",
+          title: 'High-Throughput Screening for Antibiofouling Peptides',
+          description: "Developing a computational model to accelerate the discovery of novel antibiofouling peptides.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/03_ml_screening_model/";
+            },},{id: "projects-ensemble-learning-for-overcoming-drug-resistance-in-egfr",
+          title: 'Ensemble Learning for Overcoming Drug Resistance in EGFR',
+          description: "Identifying FDA-approved molecules to combat resistance in L718Q and L792H mutations of EGFR.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/04_ml_ensemble_egfr/";
+            },},{id: "projects-kras-solvation-and-druggability-analysis",
+          title: 'KRAS Solvation and Druggability Analysis',
+          description: "Using a multilevel modelling approach to understand molecular solvation and druggability in KRAS.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/05_md_kras_solvation/";
+            },},{id: "projects-ice-growth-inhibition-by-antifreeze-peptides",
+          title: 'Ice Growth Inhibition by Antifreeze Peptides',
+          description: "A molecular dynamics simulation study on the mechanism of ice growth inhibition.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/06_md_ice_inhibition/";
+            },},{id: "projects-alchemical-calculations-for-kras-nucleotide-binding",
+          title: 'Alchemical Calculations for KRAS Nucleotide Binding',
+          description: "Investigating nucleotide binding affinities in KRAS variants using free energy calculations.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/07_md_alchemical_kras/";
+            },},{id: "projects-molecular-docking-for-egfr-inhibitor-discovery",
+          title: 'Molecular Docking for EGFR Inhibitor Discovery',
+          description: "Retrospective and prospective docking of small molecules to discover EGFR mutant inhibitors.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/08_md_docking_egfr/";
+            },},{id: "projects-aiche-2023",
           title: 'AIChE 2023',
           description: "A talk on mechanistic insight on how certain mutations induce drug resistance in EGFR.",
           section: "Projects",handler: () => {
