@@ -4,11 +4,7 @@
     - name: Full Name
       value: Ibrahim Abiodun Imam
     - name: Location
-      value: Lexington, KY, USA
-    - name: Address
-      value: 1608 University Ct, Apt B313, Lexington, KY 40503
-    - name: Phone
-      value: +1 (859) 693 6731
+      value: Watertown, MA / Lexington, KY, USA
     - name: Email
       value: imamabiodunibrahim@gmail.com
     - name: Academic Email
@@ -17,131 +13,129 @@
       value: <a href="https://www.linkedin.com/in/iaimam" target="_blank">iaimam</a>
     - name: GitHub
       value: <a href="https://github.com/imamabi" target="_blank">@imamabi</a>
+    - name: Portfolio
+      value: <a href="https://imamabi.github.io" target="_blank">imamabi.github.io</a>
     - name: Google Scholar
       value: <a href="https://scholar.google.com/citations?user=_xCno5oAAAAJ" target="_blank">Scholar profile</a>
 
+- title: Summary
+  type: list
+  contents:
+    - Ph.D. candidate in Chemical Engineering specializing in computational chemistry and AI-enabled molecular design.
+    - Experienced in structure-based modeling, molecular dynamics, enhanced sampling, cheminformatics, and high-throughput HPC workflows.
+    - Industry co-op experience supporting DNA-encoded library hit triage and small-molecule design with medicinal chemistry teams.
 
 - title: Education
   type: time_table
   contents:
     - title: Ph.D., Chemical Engineering
       institution: University of Kentucky, Lexington, KY, USA
-      year: Dec 2026 
+      year: "Aug 2022 - Expected Nov 2026"
       description:
-        - GPA "3.92/4.00"
-    - title: B.Eng., Chemical Engineering (BS equivalent)
+        - "GPA: 3.92/4.00"
+    - title: B.Eng., Chemical Engineering
       institution: Federal University of Technology, Minna, Nigeria
       year: Nov 2017
       description:
-        - GPA "3.85/4.00"
+        - "GPA: 3.85/4.00"
 
 - title: Experience
   type: time_table
   contents:
+    - title: Cheminformatics Co-op, DNA-Encoded Libraries
+      institution: GlaxoSmithKline (GSK), Cambridge, MA
+      year: "Jan 2026 - Present"
+      description:
+        - Developed machine-learning ensembles to identify target-specific hits from large-scale chemical libraries.
+        - Supported DEL selection data analysis and hit triage using Python and RDKit workflows, including enrichment, clustering, and substructure analytics.
+        - Built interactive Spotfire dashboards for medicinal chemistry teams to support series prioritization and SAR-style visualizations.
+        - Prepared medicinal chemistry reports with series prioritization, analog suggestions, and structure-activity insights.
+
     - title: Graduate Research Assistant
       institution: University of Kentucky, Lexington, KY
-      year: "Aug 2022-Present"
+      year: "Aug 2022 - Present"
       description:
-        - Developed a multi-scale modeling pipeline integrating MD and deep learning (PyTorch) for small molecules and peptides; resulted in 2 peer-reviewed publications.
-        - Curated and preprocessed small-molecule/protein datasets for docking, MD, and ML; improved prediction accuracy by ~10%.
-        - Performed unbiased and enhanced-sampling MD (well-tempered metadynamics, umbrella sampling) to study mutation-induced drug resistance and functional loss in proteins.
-        - Automated HPC workflows (Python/Bash; SLURM) for submission/monitoring/post-processing, reducing simulation setup time by ~45%.
-        - Collaborated with experimental teams on drug repurposing for EGFR-positive cancer; translated in-silico rankings into testable hypotheses.
+        - Developed a multi-scale pipeline combining molecular dynamics simulations with deep learning in PyTorch to study protein structure-function relationships, resulting in peer-reviewed publications.
+        - Curated and preprocessed small-molecule datasets for docking and machine-learning training, improving model precision by 10%.
+        - Performed computational experiments to investigate biophysical mechanisms in proteins and drug-resistance mutations.
+        - Automated HPC workflows with Python and Bash, reducing simulation setup time by 45%.
+        - Collaborated with interdisciplinary teams to derive insights into EGFR drug discovery efforts.
 
-    - title: Graduate Research Fellow (Applied Mathematics & Computational Research)
+    - title: Graduate Research Fellow
       institution: Lawrence Berkeley National Laboratory, Berkeley, CA
-      year: "Jun-Aug 2023"
+      year: "Jun 2023 - Aug 2023"
       description:
-        - Enhanced NWChemEx workflows for biochemical systems; contributed input-generation utilities and scaling optimizations across nodes.
-        - Investigated EGFR mutation–driven resistance via quantum chemistry (ORCA/NWChemEx) integrated with MD; tuned theory levels, basis sets, and SCF criteria.
-        - Built automated HPC pipelines (Python/Bash) for parameter sweeps and post-processing, reducing idle wall-clock time and improving throughput.
-        - Performed benchmarking and validation against reference datasets; documented results and presented to the AMCR group.
+        - Enhanced NWChemEx capabilities for biochemical system modeling and improved scalability on HPC resources.
+        - Built automation scripts for benchmarking and regression testing to validate software changes.
+        - Conducted benchmarking analyses and documented recommendations for maintainable computational workflows.
 
-    - title: Graduate-Engineer Management Trainee
-      institution: Flour Mills of Nigeria (FMN) Plc — Ibadan/Lagos, Nigeria
-      year: "Feb-Aug 2022"
-      description:
-        - Supported daily operations and process optimization; coordinated cross-functional improvements.
-        - Analyzed production data to identify bottlenecks; prepared technical reports, PFDs, and mass balances.
-        - Ensured compliance with safety and quality standards; mentored junior engineers.
-    - title: Assistant Plant Engineer
-      institution: Air Separation Nigeria Limited — Plateau State, Nigeria
-      year: "Jan 2020-Feb 2022"
-      description:
-        - Supervised/optimized cryogenic air separation to produce high-purity O₂/N₂ (liquid and gas).
-        - Implemented process control strategies; performed RCA/troubleshooting for deviations and equipment issues.
-        - Provided technical support for AirSep PSA plants nationwide; led preventive maintenance programs.
-        - Authored technical reports and energy/mass balance documents; ensured safety and environmental compliance.
-        - Trained plant personnel on advanced chemical engineering principles and best practices.
-    - title: Graduate Research Assistant
-      institution: University of Uyo, Akwa Ibom, Nigeria
-      year: "Apr 2018-Dec 2019"
-      description:
-        - Conducted research in pollution control and sustainable environmental remediation.
-        - Designed/ran experiments; performed statistical analyses; prepared proposals and progress reports.
-        - Presented findings at academic seminars; assisted with undergraduate teaching and lab sessions; mentored students.
-- title: Workshops & Training
-  type: time_table
-  contents:
-    - title: Virtual School on Machine Learning for Molecules — 9th i-CoMSE Workshop
-      institution: NSF
-      year: Apr 2025
-      description:
-        - Data cleaning/imputation; molecular featurization; ML & DL for molecules
-    - title: MDAnalysis / MolSSI Workshop
-      institution: Arizona State University; MDAnalysis & Molecular Sciences Software Institute
-      year: Jun 2024
-      description:
-        - Software development practices; software version control
-    - title: Methods for Enhanced Sampling (Virtual) — 3rd i-CoMSE Workshop
-      institution: NSF
-      year: Apr 2023
-      description:
-        - Umbrella sampling; metadynamics; replica exchange
-
-- title: Skills
+- title: Technical Skills
   type: nested_list
   contents:
-    - title: Machine Learning & Data Science
+    - title: Cheminformatics
       items:
-        - Supervised/unsupervised modeling; feature engineering; model validation (precision/recall/F1, ROC-AUC, CV)
-        - scikit-learn, XGBoost, PyTorch; experiment tracking & reproducible workflows
-    - title: Cheminformatics & CADD
+        - OpenEye ROCS and OMEGA; RDKit; Open Babel; Spotfire
+        - Similarity search, clustering, substructure analytics, hit triage, and dataset curation
+    - title: Molecular Modeling
       items:
-        - RDKit, Open Babel; scaffold hopping; similarity search & fingerprinting; QSAR baselines
-        - Docking & ranking (AutoDock Vina); ligand/protein prep; basic ADMET awareness
-    - title: Molecular Modeling & Simulation
+        - GROMACS, OpenMM, AutoDock Vina, ORCA, PyMOL
+        - Docking, binding-pose analysis, MD-driven binding hypotheses, and conformational analysis
+    - title: Enhanced Sampling & Free Energy
       items:
-        - GROMACS, OpenMM; peptide/protein & small-molecule MD; structure prep (PyMOL, Avogadro)
-        - Analysis: SASA, H-bonds, RMSD/RMSF, PMF; interfacial hydration & anti-adhesion metrics
-    - title: Free Energy & Enhanced Sampling
+        - PLUMED, well-tempered metadynamics, umbrella sampling, and replica-exchange concepts
+        - TI, MBAR, MM/GBSA, convergence checks, and uncertainty analysis
+    - title: Machine Learning for Molecules
       items:
-        - FEP, TI, MBAR; MM/GBSA
-        - PLUMED; well-tempered metadynamics; umbrella sampling; uncertainty/convergence checks
-    - title: Materials & Process Engineering
+        - scikit-learn, ensemble learning, PyTorch, feature engineering, QSAR, and model validation
+        - Deployment-ready scripting for reproducible molecular-data workflows
+    - title: Scientific Computing
       items:
-        - Mass/energy balances; unit operations; reactor design; process modelling
-        - Coatings & surfaces (hydration-layer design, antifouling); DoE basics & scale-up mindset
-    - title: Programming & Compute
-      items:
-        - Python, R, Bash; Git/GitHub; Linux; HPC job scripts (e.g., SLURM)
-        - Data pipelines; automation; documentation & version control
-    - title: Quality, Safety & Communication
-      items:
-        - Scientific writing (manuscripts, reports, SOPs); clear presentations & mentoring
-        - Data integrity & good documentation practices; basic GLP/GMP awareness
+        - Python, NumPy, Pandas, MDAnalysis, R, Linux/Bash, Git, and HPC job automation
+
+- title: Selected Projects & Research Highlights
+  type: list
+  contents:
+    - "EGFR mutation resistance: MD and quantum chemical calculations to characterize osimertinib resistance mechanisms."
+    - "Functional peptides: protein language models with molecular dynamics to discover antifreeze and antibiofouling peptides."
+    - "DEL hit triage: cheminformatics and machine-learning workflows for prioritizing target-specific chemical series."
+
+- title: Selected Publications
+  type: list
+  contents:
+    - "Imam I.A., et al. Discovering naturally occurring antifreeze peptides from microbiome by integrating protein language models and molecular dynamics simulation. Journal of Materials Chemistry B, 2026."
+    - "Imam I.A., et al. In-Silico Predictions of Drug Resistance in Lung Cancers with EGFR Mutation. PASC '25, 2025."
+    - "Imam I.A., et al. L858R/L718Q and L858R/L792H mutations of EGFR inducing resistance against osimertinib. Proteins: Structure, Function, and Bioinformatics, 2025."
+    - "Imam I.A., et al. Integrating protein language model and molecular dynamics simulations to discover antibiofouling peptides. Langmuir, 2024."
+
+- title: Training & Workshops
+  type: time_table
+  contents:
+    - title: Virtual School on Machine Learning for Molecules
+      institution: NSF i-CoMSE
+      year: Apr 2025
+      description:
+        - Data cleaning, molecular featurization, machine learning, and deep learning for molecules
+    - title: MDAnalysis / MolSSI Workshop
+      institution: Arizona State University; MDAnalysis; Molecular Sciences Software Institute
+      year: Jun 2024
+      description:
+        - Scientific software development and version control
+    - title: Methods for Enhanced Sampling
+      institution: NSF i-CoMSE
+      year: Apr 2023
+      description:
+        - Umbrella sampling, metadynamics, and replica exchange
 
 - title: Memberships
   type: list
   contents:
-    - ACM  – Graduate Member (2025)
-    - NOBCChE — Graduate Student Member (2024  – now)
-    - AIChE — Graduate Student Member (2023 – now)
+    - ACM Graduate Member, 2025
+    - NOBCChE Graduate Student Member, 2024 - present
+    - AIChE Graduate Student Member, 2023 - present
 
 - title: Languages
   type: list
   contents:
-    - English — Proficient
-    - Yoruba — Native
-    - Hausa — Native
-
+    - English - Proficient
+    - Yoruba - Native
+    - Hausa - Native

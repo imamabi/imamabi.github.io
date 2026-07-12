@@ -2,7 +2,7 @@
 layout: page
 title: MD Validation of Antibiofouling Peptides
 description: Validating the interfacial properties of computationally predicted antibiofouling peptides.
-img: /assets/img/md_validation.jpg # Path to your image
+img: /assets/img/Pep.png # Path to your image
 importance: 1
 category: Molecular Modelling
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: Alchemical Calculations for KRAS Nucleotide Binding
 description: Investigating nucleotide binding affinities in KRAS variants using free energy calculations.
-img: /assets/img/free_energy.jpg # Path to your image
+img: /assets/img/T253I.gif # Path to your image
 importance: 4
 category: Molecular Modelling
 ---

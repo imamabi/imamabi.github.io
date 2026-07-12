@@ -2,12 +2,14 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A showcase of my key research projects in machine learning and molecular modelling.
+description: Selected computational chemistry projects spanning cheminformatics, molecular simulation, machine learning, and molecular discovery.
 nav: true
 nav_order: 3
 display_categories: [Machine Learning, Molecular Modelling]
 horizontal: false
 ---
+
+These projects highlight the core workflows I use: building molecular-data pipelines, validating candidates with atomistic simulation, and translating chemical mechanisms into testable hypotheses.
 
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}

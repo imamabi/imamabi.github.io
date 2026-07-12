@@ -2,7 +2,7 @@
 layout: page
 title: Ice Growth Inhibition by Antifreeze Peptides
 description: A molecular dynamics simulation study on the mechanism of ice growth inhibition.
-img: /assets/img/proj6.png  # Path to your image
+img: /assets/img/proj6-fixed.png  # Path to your image
 importance: 3
 category: Molecular Modelling
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: Molecular Docking for EGFR Inhibitor Discovery
 description: Retrospective and prospective docking of small molecules to discover EGFR mutant inhibitors.
-img: /assets/img/molecular_docking.jpg # Path to your image
+img: /assets/img/proj3.png # Path to your image
 importance: 5
 category: Molecular Modelling
 ---
