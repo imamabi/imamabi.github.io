@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Molecular Docking for EGFR Inhibitor Discovery
-description: Retrospective and prospective docking of small molecules to discover EGFR mutant inhibitors.
+title: Multi-study workflow (Docking, MD, QMMM) to prioritize small molecules as potential EGFR inhibitors
+description: An integrated workflow combining docking, molecular dynamics, and QM/MM refinement to rank and prioritize small molecules against EGFR variants.
 img: /assets/img/proj3.png # Path to your image
 importance: 5
 category: Molecular Modeling
 ---
 
-This project combined retrospective and prospective molecular docking studies to screen FDA-approved drug libraries for potential inhibitors of mutant EGFR. By validating our docking protocol on known binders and then screening new compounds, we successfully identified and prioritized several promising candidates for overcoming drug resistance.
+This multi-study pipeline integrates (1) high-throughput docking to identify putative binders, (2) explicit-solvent MD to evaluate binding stability and induced-fit effects, and (3) QM/MM calculations for selected top candidates to refine binding energetics and propose mechanism-informed prioritization. The workflow is designed to rank small molecules for experimental follow-up against EGFR wild-type and clinically relevant mutants.

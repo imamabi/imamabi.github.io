@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Ensemble Learning for Overcoming Drug Resistance in EGFR
-description: Identifying FDA-approved molecules to combat resistance in L718Q and L792H mutations of EGFR.
+title: Develop ML ensemble with late fusion to Identify herG and CYP3K potential binders
+description: Building an ensemble machine-learning pipeline with late-fusion strategies to predict potential hERG and CYP3A interactions and identify safe, non-interacting binders.
 img: /assets/img/proj3.png # Path to your image
 importance: 3
 category: Machine Learning
 ---
 
-We developed a sophisticated ensemble learning model by combining several pre-selected machine learning algorithms. This model was trained to identify FDA-approved molecules with the potential to overcome drug resistance in EGFR, specifically targeting the challenging L718Q and L792H mutations. This approach allows for the rapid repurposing of existing drugs for new therapeutic applications.
+This project develops an ensemble ML architecture using late-fusion across orthogonal feature sets (physicochemical descriptors, docking scores, and learned embeddings) to predict liability and binding potential to hERG and CYP3A family members. The ensemble emphasizes interpretability and calibration to reduce false positives and prioritize chemically tractable candidates for follow-up assays.

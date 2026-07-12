@@ -1,10 +1,10 @@
 ---
 layout: page
-title: KRAS Solvation and Druggability Analysis
-description: Using a multilevel modelling approach to understand molecular solvation and druggability in KRAS.
+title: MD Simulation for structure-function relationship in EGFR, KRAS and p53 proteins
+description: Atomistic molecular dynamics studies to investigate structure–function relationships and mutation-induced effects in EGFR, KRAS, and p53.
 img: /assets/img/T253I.gif # Path to your image
 importance: 2
 category: Molecular Modeling
 ---
 
-This research employed a multilevel modelling approach to investigate the complex molecular solvation environment of the KRAS protein. By understanding how water molecules interact with the protein surface, we gained critical insights into its druggability, informing the rational design of novel inhibitors for this key oncogenic target.
+This research uses all-atom MD to probe how sequence variation and oncogenic mutations alter structural dynamics and function in key cancer-related proteins (EGFR, KRAS, and p53). Analyses include conformational ensemble characterization, mutation-driven interaction changes, and metrics that connect atomistic behavior to biochemical phenotypes, guiding hypotheses for functional assays and inhibitor design.

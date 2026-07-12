@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Novel Peptide Sequence Selection using PLMs
-description: Identifying diverse peptide sequences from a high-throughput screening of a microbiome library.
+title: Integrating Protein Language Model and MD Simulation to discover functional peptides
+description: Combining protein language models and molecular dynamics to discover and validate functional peptides from microbiome libraries.
 img: /assets/img/proj1.png # Path to your image
 importance: 1
 category: Machine Learning
 ---
 
-This project focused on selecting novel peptide sequences from a pool of 145 candidates that were predicted from a high-throughput screening of the microbiome library. We utilized a state-of-the-art Protein Language Model (PLM) to identify sequences that were functionally promising yet structurally diverse from the initial training dataset, ensuring a broader exploration of the sequence space.
+This project integrates state-of-the-art Protein Language Models (PLMs) with molecular dynamics (MD) simulations to discover and validate functional peptides from microbiome sequence libraries. PLMs were used for rapid high-throughput sequence prioritization and diversity selection, and top candidates were evaluated with explicit-solvent MD to assess structural stability and likely functional motifs.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
