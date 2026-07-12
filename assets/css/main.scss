@@ -27,7 +27,7 @@ $max-content-width: {{ site.max_width }};
 :root {
   --portfolio-ink: #10202a;
   --portfolio-muted: #546674;
-  --portfolio-surface: rgba(255, 255, 255, 0.84);
+  --portfolio-surface: #ffffff;
   --portfolio-border: rgba(16, 32, 42, 0.14);
   --portfolio-accent: #006d77;
   --portfolio-accent-strong: #073b4c;
@@ -49,24 +49,14 @@ html[data-theme="dark"] {
 }
 
 body {
-  background-image:
-    linear-gradient(120deg, rgba(0, 109, 119, 0.16) 0%, rgba(0, 109, 119, 0) 34%),
-    linear-gradient(300deg, rgba(247, 127, 0, 0.16) 0%, rgba(247, 127, 0, 0) 32%),
-    linear-gradient(30deg, transparent 48%, rgba(0, 109, 119, 0.09) 49%, rgba(0, 109, 119, 0.09) 51%, transparent 52%),
-    linear-gradient(150deg, transparent 48%, rgba(193, 18, 31, 0.08) 49%, rgba(193, 18, 31, 0.08) 51%, transparent 52%),
-    linear-gradient(180deg, #fffdf7 0%, #eef8f6 48%, #fff4e6 100%);
-  background-attachment: fixed;
-  background-size: auto, auto, 180px 112px, 180px 112px, auto;
+  background:
+    linear-gradient(180deg, #f5fbfa 0%, #fff8eb 320px, #f7f9fb 760px, #f8fafc 100%);
   line-height: 1.7;
 }
 
 html[data-theme="dark"] body {
-  background-image:
-    linear-gradient(120deg, rgba(45, 212, 191, 0.14) 0%, rgba(45, 212, 191, 0) 34%),
-    linear-gradient(300deg, rgba(251, 191, 36, 0.12) 0%, rgba(251, 191, 36, 0) 32%),
-    linear-gradient(30deg, transparent 48%, rgba(45, 212, 191, 0.08) 49%, rgba(45, 212, 191, 0.08) 51%, transparent 52%),
-    linear-gradient(150deg, transparent 48%, rgba(251, 113, 133, 0.08) 49%, rgba(251, 113, 133, 0.08) 51%, transparent 52%),
-    linear-gradient(180deg, #071923 0%, #0f242c 48%, #1a1f2c 100%);
+  background:
+    linear-gradient(180deg, #071923 0%, #0f242c 340px, #111827 100%);
 }
 
 .post-header {
@@ -108,22 +98,50 @@ table.table a:hover {
 }
 
 .home-hero {
+  position: relative;
+  overflow: hidden;
   margin-bottom: 1.75rem;
-  padding: 1.15rem 1.25rem;
-  border: 1px solid var(--portfolio-border);
-  border-left: 5px solid var(--portfolio-hot);
+  padding: 1.35rem 1.45rem;
+  border: 0;
   border-radius: 8px;
   background:
-    linear-gradient(135deg, rgba(0, 109, 119, 0.12), rgba(255, 255, 255, 0.82) 48%, rgba(247, 127, 0, 0.14)),
-    var(--portfolio-surface);
-  box-shadow: 0 18px 46px rgba(16, 32, 42, 0.08);
+    radial-gradient(circle at 82% 18%, rgba(45, 212, 191, 0.34), rgba(45, 212, 191, 0) 28%),
+    radial-gradient(circle at 12% 92%, rgba(247, 127, 0, 0.28), rgba(247, 127, 0, 0) 30%),
+    linear-gradient(135deg, #061923 0%, #0c3b42 54%, #241a34 100%);
+  box-shadow: 0 22px 54px rgba(16, 32, 42, 0.18);
+  color: #ffffff;
+}
+
+.home-hero::after {
+  position: absolute;
+  right: 1.25rem;
+  bottom: 1.1rem;
+  width: 156px;
+  height: 86px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  box-shadow:
+    -44px -18px 0 -39px rgba(255, 255, 255, 0.76),
+    -6px -30px 0 -39px rgba(45, 212, 191, 0.9),
+    42px -8px 0 -39px rgba(247, 127, 0, 0.88),
+    5px 28px 0 -39px rgba(255, 255, 255, 0.72);
+  content: "";
+  opacity: 0.72;
+  pointer-events: none;
 }
 
 html[data-theme="dark"] .home-hero {
   background:
-    linear-gradient(135deg, rgba(45, 212, 191, 0.12), rgba(14, 29, 39, 0.88) 48%, rgba(251, 191, 36, 0.12)),
-    var(--portfolio-surface);
-  box-shadow: 0 18px 46px rgba(0, 0, 0, 0.22);
+    radial-gradient(circle at 82% 18%, rgba(45, 212, 191, 0.28), rgba(45, 212, 191, 0) 28%),
+    radial-gradient(circle at 12% 92%, rgba(251, 191, 36, 0.22), rgba(251, 191, 36, 0) 30%),
+    linear-gradient(135deg, #061923 0%, #0c3b42 54%, #241a34 100%);
+  box-shadow: 0 18px 46px rgba(0, 0, 0, 0.3);
+}
+
+.home-hero .eyebrow {
+  position: relative;
+  z-index: 1;
+  color: #fbbf24;
 }
 
 .eyebrow,
@@ -137,13 +155,17 @@ html[data-theme="dark"] .home-hero {
 }
 
 .lede {
+  position: relative;
+  z-index: 1;
   max-width: 720px;
-  color: var(--portfolio-ink);
+  color: rgba(255, 255, 255, 0.94);
   font-size: 1.28rem;
   line-height: 1.55;
 }
 
 .hero-actions {
+  position: relative;
+  z-index: 1;
   display: flex;
   flex-wrap: wrap;
   gap: 0.75rem;
@@ -158,7 +180,7 @@ html[data-theme="dark"] .home-hero {
   padding: 0.65rem 1rem;
   border: 1px solid var(--portfolio-accent);
   border-radius: 6px;
-  background: linear-gradient(135deg, var(--portfolio-accent), var(--portfolio-accent-strong));
+  background: linear-gradient(135deg, #00a896, #006d77);
   color: #ffffff;
   font-weight: 700;
   text-decoration: none;
@@ -171,13 +193,14 @@ html[data-theme="dark"] .home-hero {
 }
 
 .btn-portfolio-secondary {
-  background: transparent;
-  color: var(--portfolio-accent);
+  border-color: rgba(255, 255, 255, 0.54);
+  background: rgba(255, 255, 255, 0.12);
+  color: #ffffff;
 }
 
 .btn-portfolio-secondary:hover {
-  background: var(--portfolio-surface);
-  color: var(--portfolio-accent-strong);
+  background: rgba(255, 255, 255, 0.22);
+  color: #ffffff;
 }
 
 .chem-workflow {
@@ -192,24 +215,22 @@ html[data-theme="dark"] .home-hero {
   padding: 1rem;
   border: 1px solid var(--portfolio-border);
   border-radius: 8px;
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.76), rgba(255, 255, 255, 0.48)),
-    var(--portfolio-surface);
+  background: var(--portfolio-surface);
   box-shadow:
     inset 0 4px 0 var(--portfolio-accent),
-    0 12px 30px rgba(16, 32, 42, 0.08);
+    0 12px 30px rgba(16, 32, 42, 0.1);
 }
 
 .chem-workflow > div:nth-child(2) {
   box-shadow:
     inset 0 4px 0 var(--portfolio-warm),
-    0 12px 30px rgba(16, 32, 42, 0.08);
+    0 12px 30px rgba(16, 32, 42, 0.1);
 }
 
 .chem-workflow > div:nth-child(3) {
   box-shadow:
     inset 0 4px 0 var(--portfolio-hot),
-    0 12px 30px rgba(16, 32, 42, 0.08);
+    0 12px 30px rgba(16, 32, 42, 0.1);
 }
 
 html[data-theme="dark"] .chem-workflow > div,
@@ -280,9 +301,8 @@ html[data-theme="dark"] .impact-grid > div {
   padding: 1rem;
   border: 1px solid var(--portfolio-border);
   border-radius: 8px;
-  background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.82), rgba(255, 255, 255, 0.54)),
-    var(--portfolio-surface);
+  background: var(--portfolio-surface);
+  box-shadow: 0 10px 26px rgba(16, 32, 42, 0.07);
 }
 
 .impact-grid span {
@@ -447,6 +467,10 @@ footer.fixed-bottom {
 }
 
 @media (max-width: 767px) {
+  .home-hero::after {
+    display: none;
+  }
+
   .post-title {
     font-size: 2.25rem;
   }

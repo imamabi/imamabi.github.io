@@ -5,7 +5,7 @@ permalink: /projects/
 description: Selected computational chemistry projects spanning cheminformatics, molecular simulation, machine learning, and molecular discovery.
 nav: true
 nav_order: 3
-display_categories: [Machine Learning, Molecular Modelling]
+display_categories: [Machine Learning, Molecular Modeling]
 horizontal: false
 ---
 

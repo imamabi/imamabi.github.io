@@ -28,9 +28,9 @@ latest_posts:
 ---
 
 <div class="home-hero">
-  <p class="eyebrow">Computational chemistry + AI molecular design</p>
+  <p class="eyebrow">CADD + molecular data science</p>
   <p class="lede">
-    I build computational pipelines that combine cheminformatics, molecular dynamics, docking, enhanced sampling, and machine learning to accelerate DEL hit triage, peptide discovery, and drug-resistance mechanism studies.
+    I build computational pipelines that combine molecular modeling, cheminformatics, and machine learning to accelerate DEL hit triage, peptide discovery, and drug-resistance mechanism studies.
   </p>
   <div class="hero-actions">
     <a class="btn-portfolio" href="{{ '/projects/' | relative_url }}">View projects</a>
@@ -42,17 +42,17 @@ latest_posts:
   <div>
     <span>01</span>
     <strong>Molecular modeling</strong>
-    <code>MD / docking / QM-MM / FEP</code>
+    <code>MD / docking / QM/MM / FEP</code>
   </div>
   <div>
     <span>02</span>
     <strong>Cheminformatics</strong>
-    <code>RDKit / OpenEye / DEL triage</code>
+    <code>RDKit / MOE / OpenEye</code>
   </div>
   <div>
     <span>03</span>
     <strong>Machine learning</strong>
-    <code>PyTorch / XGBoost / PEFT</code>
+    <code>PyTorch / XGBoost / LightGBM</code>
   </div>
 </div>
 
@@ -63,35 +63,37 @@ latest_posts:
   <span>Linux/Bash</span>
   <span>Python</span>
   <span>NumPy/Pandas</span>
+  <span>scikit-learn</span>
+  <span>TIBCO Spotfire</span>
   <span>Git</span>
 </div>
 
 <div class="impact-grid">
   <div>
-    <span>4</span>
-    <p>selected publications and conference papers across peptides, EGFR, and HPC workflows</p>
+    <span>25%</span>
+    <p>average precision lift from ensemble learning for target-specific hit identification</p>
   </div>
   <div>
-    <span>GSK</span>
-    <p>completed cheminformatics co-op supporting DNA-encoded library hit triage and medicinal chemistry teams</p>
+    <span>500M</span>
+    <p>compounds triaged toward about 1,000 prioritized SOS1/2 candidates</p>
   </div>
   <div>
-    <span>45%</span>
-    <p>faster simulation setup through automated HPC workflows</p>
+    <span>&lt;1 min</span>
+    <p>SQL property retrieval workflow reduced from roughly 6 hours</p>
   </div>
   <div>
-    <span>2026</span>
-    <p>Ph.D. expected in Chemical Engineering</p>
+    <span>12</span>
+    <p>candidate compounds recommended from EGFR resistance modeling workflows</p>
   </div>
 </div>
 
-I'm Ibrahim Imam, a Ph.D. candidate in Chemical Engineering at the University of Kentucky in Lexington, KY. I recently completed a Cheminformatics Co-op at GSK, where I supported DNA-encoded library hit triage and small-molecule design workflows for medicinal chemistry teams. My work sits at the intersection of computational chemistry, cheminformatics, molecular simulation, and machine learning, with a focus on turning molecular insight into practical discovery workflows.
+I'm Ibrahim Imam, a Ph.D. candidate in Chemical Engineering at the University of Kentucky in Lexington, KY. I specialize in computational chemistry, cheminformatics, molecular data science, and AI/ML for drug discovery. I recently completed a Cheminformatics Co-op at GSK, where I supported DNA-encoded library hit triage, chemical data workflows, and medicinal chemistry decision-making.
 
-I develop hybrid pipelines that connect structure-based modeling, including docking, molecular dynamics, enhanced sampling, and free-energy calculations, with modern machine learning and cheminformatics. The common thread is speed with mechanistic accountability: prioritize promising candidates quickly while still understanding why they work.
+I develop hybrid pipelines that connect structure-based modeling, including docking, molecular dynamics, enhanced sampling, QM/MM, and free-energy calculations, with modern machine learning and cheminformatics. The common thread is speed with mechanistic accountability: prioritize promising candidates quickly while still understanding why they work.
 
 My current work focuses on:
 - Molecular modeling, including MD simulation, molecular docking, QM/MM, enhanced sampling, and FEP.
-- Cheminformatics, including RDKit, chemical dataset curation, DEL hit triage, MOE, Open Babel, OpenEye, and Spotfire.
+- Cheminformatics, including RDKit, chemical dataset curation, DEL hit triage, MOE, OpenBabel, OpenEye, and TIBCO Spotfire.
 - Machine learning for molecules, including PyTorch, XGBoost, LightGBM, PEFT, model evaluation, and ensemble learning.
 - Discovering functional peptides by integrating protein language models with molecular dynamics simulations before wet-lab validation.
 - Supporting computational infrastructure with Python, SQL, Google BigQuery, HPC workflows, Linux/Bash scripting, and reproducible data pipelines.

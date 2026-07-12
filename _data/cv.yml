@@ -21,9 +21,9 @@
 - title: Summary
   type: list
   contents:
-    - Ph.D. candidate in Chemical Engineering specializing in computational chemistry and AI-enabled molecular design.
-    - Experienced in structure-based modeling, molecular dynamics, enhanced sampling, cheminformatics, and high-throughput HPC workflows.
-    - Completed industry co-op experience supporting DNA-encoded library hit triage and small-molecule design with medicinal chemistry teams.
+    - Ph.D. candidate in Chemical Engineering specializing in computational chemistry, cheminformatics, molecular data science, and AI/ML for drug discovery.
+    - Experienced in MD simulation, molecular docking, QM/MM, alchemical free-energy calculations, enhanced sampling, and custom force-field parameterization.
+    - Completed GSK industry co-op experience supporting chemical data workflows, DEL hit triage, medicinal chemistry decision-making, SQL/BigQuery retrieval, and ML model design.
 
 - title: Education
   type: time_table
@@ -43,57 +43,59 @@
   type: time_table
   contents:
     - title: Cheminformatics Co-op, DNA-Encoded Libraries
-      institution: GlaxoSmithKline (GSK), Cambridge, MA
+      institution: GSK plc, Cambridge, MA
       year: "Jan 2026 - Jun 2026"
       description:
-        - Developed machine-learning ensembles to identify target-specific hits from large-scale chemical libraries.
-        - Supported DEL selection data analysis and hit triage using Python and RDKit workflows, including enrichment, clustering, and substructure analytics.
-        - Built interactive Spotfire dashboards for medicinal chemistry teams to support series prioritization and SAR-style visualizations.
-        - Prepared medicinal chemistry reports with series prioritization, analog suggestions, and structure-activity insights.
+        - Implemented an ensemble learning strategy for target-specific hit identification, improving average precision by 25%.
+        - Evaluated hits from collation-based statistical hit-calling workflows, expanding the hit set by about 10%.
+        - Supported large-scale triage of more than 500M compounds to about 1,000 candidates for SOS1/2 targets.
+        - Designed SQL workflows to retrieve calculated chemical properties, reducing property-calculation tasks from roughly 6 hours to under 1 minute.
+        - Developed TIBCO Spotfire dashboards for medicinal chemistry teams to visualize hit results and SAR trends.
 
     - title: Graduate Research Assistant
       institution: University of Kentucky, Lexington, KY
       year: "Aug 2022 - Present"
       description:
-        - Developed a multi-scale pipeline combining molecular dynamics simulations with deep learning in PyTorch to study protein structure-function relationships, resulting in peer-reviewed publications.
-        - Curated and preprocessed small-molecule datasets for docking and machine-learning training, improving model precision by 10%.
-        - Performed computational experiments to investigate biophysical mechanisms in proteins and drug-resistance mutations.
-        - Automated HPC workflows with Python and Bash, reducing simulation setup time by 45%.
-        - Collaborated with interdisciplinary teams to derive insights into EGFR drug discovery efforts.
+        - Integrated MD simulation, molecular docking, and QM/MM calculations to investigate EGFR resistance and recommend 12 candidate compounds.
+        - Applied alchemical free-energy and FEP workflows to quantify KRAS mutation-dependent GTP/GDP binding.
+        - Used well-tempered metadynamics to identify p53 breathing conformations associated with early collapse.
+        - Combined protein language models with molecular dynamics for antibiofouling and antifreeze peptide discovery.
+        - Automated HPC molecular simulation and analysis workflows with Python and Linux/Bash scripting.
 
     - title: Graduate Research Fellow
       institution: Lawrence Berkeley National Laboratory, Berkeley, CA
       year: "Jun 2023 - Aug 2023"
       description:
-        - Enhanced NWChemEx capabilities for biochemical system modeling and improved scalability on HPC resources.
+        - Evaluated NWChemEx scalability and benchmarking workflows for biochemical system modeling on HPC resources.
         - Built automation scripts for benchmarking and regression testing to validate software changes.
-        - Conducted benchmarking analyses and documented recommendations for maintainable computational workflows.
+        - Documented performance observations and recommendations for maintainable computational chemistry workflows.
 
 - title: Technical Skills
   type: nested_list
   contents:
     - title: Molecular Modeling
       items:
-        - MD simulation, molecular docking, QM/MM, enhanced sampling, and FEP
-        - GROMACS, OpenMM, AutoDock Vina, ORCA, PyMOL, PLUMED, TI, MBAR, and MM/GBSA
+        - MD simulation, molecular docking, QM/MM, enhanced sampling, FEP, alchemical calculations, MM/GBSA, and custom force-field parameterization
+        - GROMACS, OpenMM, Amber, AutoDock Vina, MOE, ORCA, PyMOL, Chimera, PLUMED, TI, MBAR, and MDAnalysis
     - title: Cheminformatics
       items:
-        - RDKit, chemical dataset curation, DEL hit triage, MOE, Open Babel, OpenEye, and Spotfire
-        - Similarity search, clustering, substructure analytics, enrichment analysis, and hit triage
+        - RDKit, chemical dataset curation, DEL hit triage, MOE, OpenBabel, OpenEye, TIBCO Spotfire, and ChEMBL
+        - Hit calling, SAR analysis, physicochemical property analysis, similarity search, clustering, substructure analytics, and enrichment analysis
     - title: Machine Learning
       items:
         - PyTorch, XGBoost, LightGBM, PEFT, model evaluation, and ensemble learning
-        - Feature engineering, QSAR, validation metrics, and deployment-ready molecular-data scripts
+        - ESM2, ProteinMPNN, Chemprop, scikit-learn, feature engineering, QSAR, molecular property prediction, validation metrics, and deployment-ready molecular-data scripts
     - title: Supporting Computational Toolkit
       items:
-        - Google BigQuery, SQL, HPC workflows, Linux/Bash scripting, Python, NumPy, Pandas, MDAnalysis, R, Git, and workflow automation
+        - Google BigQuery, SQL, HPC workflows, Linux/Bash scripting, Python, NumPy, Pandas, R, Git, and workflow automation
 
 - title: Selected Projects & Research Highlights
   type: list
   contents:
-    - "EGFR mutation resistance: MD and quantum chemical calculations to characterize osimertinib resistance mechanisms."
+    - "EGFR resistance modeling: MD simulation, molecular docking, and QM/MM calculations to characterize resistance mechanisms and prioritize 12 candidate compounds."
+    - "KRAS free-energy analysis: alchemical FEP workflows to quantify mutation-dependent GTP/GDP binding."
     - "Functional peptides: protein language models with molecular dynamics to discover antifreeze and antibiofouling peptides."
-    - "DEL hit triage: cheminformatics and machine-learning workflows for prioritizing target-specific chemical series."
+    - "DEL hit triage: cheminformatics, hit-calling analysis, SQL/BigQuery retrieval, and ensemble ML for prioritizing target-specific chemical series."
 
 - title: Selected Publications
   type: list
