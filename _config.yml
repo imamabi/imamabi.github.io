@@ -7,11 +7,11 @@ first_name: Ibrahim
 middle_name: A.
 last_name: Imam
 contact_note: "email: imamabiodunibrahim@gmail.com"
-description: Computational chemist and Ph.D. candidate building AI-enabled molecular design, cheminformatics, and molecular-simulation workflows for drug discovery and peptide materials.
+description: Computational chemistry Ph.D. candidate in Lexington, KY, building molecular modeling, cheminformatics, and machine-learning workflows for drug discovery and peptide materials.
 footer_text: >
   Computational molecular science portfolio. Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
   and hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: computational chemistry, cheminformatics, molecular dynamics, machine learning, DNA-encoded libraries, protein language models, drug discovery, peptide materials
+keywords: computational chemistry, molecular modeling, cheminformatics, molecular dynamics, machine learning, DNA-encoded libraries, XGBoost, LightGBM, PEFT, Google BigQuery, drug discovery, peptide materials
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

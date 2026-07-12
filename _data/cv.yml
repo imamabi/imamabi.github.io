@@ -4,7 +4,7 @@
     - name: Full Name
       value: Ibrahim Abiodun Imam
     - name: Location
-      value: Watertown, MA / Lexington, KY, USA
+      value: Lexington, KY, USA
     - name: Email
       value: imamabiodunibrahim@gmail.com
     - name: Academic Email
@@ -23,7 +23,7 @@
   contents:
     - Ph.D. candidate in Chemical Engineering specializing in computational chemistry and AI-enabled molecular design.
     - Experienced in structure-based modeling, molecular dynamics, enhanced sampling, cheminformatics, and high-throughput HPC workflows.
-    - Industry co-op experience supporting DNA-encoded library hit triage and small-molecule design with medicinal chemistry teams.
+    - Completed industry co-op experience supporting DNA-encoded library hit triage and small-molecule design with medicinal chemistry teams.
 
 - title: Education
   type: time_table
@@ -44,7 +44,7 @@
   contents:
     - title: Cheminformatics Co-op, DNA-Encoded Libraries
       institution: GlaxoSmithKline (GSK), Cambridge, MA
-      year: "Jan 2026 - Present"
+      year: "Jan 2026 - Jun 2026"
       description:
         - Developed machine-learning ensembles to identify target-specific hits from large-scale chemical libraries.
         - Supported DEL selection data analysis and hit triage using Python and RDKit workflows, including enrichment, clustering, and substructure analytics.
@@ -72,25 +72,21 @@
 - title: Technical Skills
   type: nested_list
   contents:
-    - title: Cheminformatics
-      items:
-        - OpenEye ROCS and OMEGA; RDKit; Open Babel; Spotfire
-        - Similarity search, clustering, substructure analytics, hit triage, and dataset curation
     - title: Molecular Modeling
       items:
-        - GROMACS, OpenMM, AutoDock Vina, ORCA, PyMOL
-        - Docking, binding-pose analysis, MD-driven binding hypotheses, and conformational analysis
-    - title: Enhanced Sampling & Free Energy
+        - MD simulation, molecular docking, QM/MM, enhanced sampling, and FEP
+        - GROMACS, OpenMM, AutoDock Vina, ORCA, PyMOL, PLUMED, TI, MBAR, and MM/GBSA
+    - title: Cheminformatics
       items:
-        - PLUMED, well-tempered metadynamics, umbrella sampling, and replica-exchange concepts
-        - TI, MBAR, MM/GBSA, convergence checks, and uncertainty analysis
-    - title: Machine Learning for Molecules
+        - RDKit, chemical dataset curation, DEL hit triage, MOE, Open Babel, OpenEye, and Spotfire
+        - Similarity search, clustering, substructure analytics, enrichment analysis, and hit triage
+    - title: Machine Learning
       items:
-        - scikit-learn, ensemble learning, PyTorch, feature engineering, QSAR, and model validation
-        - Deployment-ready scripting for reproducible molecular-data workflows
-    - title: Scientific Computing
+        - PyTorch, XGBoost, LightGBM, PEFT, model evaluation, and ensemble learning
+        - Feature engineering, QSAR, validation metrics, and deployment-ready molecular-data scripts
+    - title: Supporting Computational Toolkit
       items:
-        - Python, NumPy, Pandas, MDAnalysis, R, Linux/Bash, Git, and HPC job automation
+        - Google BigQuery, SQL, HPC workflows, Linux/Bash scripting, Python, NumPy, Pandas, MDAnalysis, R, Git, and workflow automation
 
 - title: Selected Projects & Research Highlights
   type: list

@@ -2,16 +2,16 @@
 layout: about
 title: About
 permalink: /
-subtitle: Computational chemistry Ph.D. candidate and GSK cheminformatics co-op working on AI-enabled molecular design, DEL hit triage, and molecular simulation.
+subtitle: Computational chemistry Ph.D. candidate in Lexington, KY, working across molecular modeling, cheminformatics, and machine learning.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Cheminformatics Co-op, GSK</p>
     <p>Ph.D. Candidate, University of Kentucky</p>
-    <p>Watertown, MA / Lexington, KY</p>
+    <p>Completed GSK Cheminformatics Co-op</p>
+    <p>Lexington, KY</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -34,26 +34,36 @@ latest_posts:
   </p>
   <div class="hero-actions">
     <a class="btn-portfolio" href="{{ '/projects/' | relative_url }}">View projects</a>
-    <a class="btn-portfolio btn-portfolio-secondary" href="{{ '/assets/pdf/resume.pdf' | relative_url }}">Download CV</a>
+    <a class="btn-portfolio btn-portfolio-secondary" href="{{ '/cv/' | relative_url }}">View CV</a>
   </div>
 </div>
 
 <div class="chem-workflow" aria-label="Computational chemistry workflow">
   <div>
     <span>01</span>
-    <strong>Design & triage</strong>
-    <code>RDKit / OpenEye / Spotfire</code>
+    <strong>Molecular modeling</strong>
+    <code>MD / docking / QM-MM / FEP</code>
   </div>
   <div>
     <span>02</span>
-    <strong>Model & sample</strong>
-    <code>GROMACS / OpenMM / PLUMED</code>
+    <strong>Cheminformatics</strong>
+    <code>RDKit / OpenEye / DEL triage</code>
   </div>
   <div>
     <span>03</span>
-    <strong>Score & learn</strong>
-    <code>PyTorch / MBAR / MM/GBSA</code>
+    <strong>Machine learning</strong>
+    <code>PyTorch / XGBoost / PEFT</code>
   </div>
+</div>
+
+<div class="toolkit-strip" aria-label="Supporting computational toolkit">
+  <span>Google BigQuery</span>
+  <span>SQL</span>
+  <span>HPC</span>
+  <span>Linux/Bash</span>
+  <span>Python</span>
+  <span>NumPy/Pandas</span>
+  <span>Git</span>
 </div>
 
 <div class="impact-grid">
@@ -63,7 +73,7 @@ latest_posts:
   </div>
   <div>
     <span>GSK</span>
-    <p>cheminformatics co-op supporting DNA-encoded library hit triage and medicinal chemistry teams</p>
+    <p>completed cheminformatics co-op supporting DNA-encoded library hit triage and medicinal chemistry teams</p>
   </div>
   <div>
     <span>45%</span>
@@ -75,15 +85,16 @@ latest_posts:
   </div>
 </div>
 
-I'm Ibrahim Imam, a Ph.D. candidate in Chemical Engineering at the University of Kentucky and a Cheminformatics Co-op at GSK. My work sits at the intersection of computational chemistry, cheminformatics, molecular simulation, and machine learning, with a focus on turning molecular insight into practical discovery workflows.
+I'm Ibrahim Imam, a Ph.D. candidate in Chemical Engineering at the University of Kentucky in Lexington, KY. I recently completed a Cheminformatics Co-op at GSK, where I supported DNA-encoded library hit triage and small-molecule design workflows for medicinal chemistry teams. My work sits at the intersection of computational chemistry, cheminformatics, molecular simulation, and machine learning, with a focus on turning molecular insight into practical discovery workflows.
 
 I develop hybrid pipelines that connect structure-based modeling, including docking, molecular dynamics, enhanced sampling, and free-energy calculations, with modern machine learning and cheminformatics. The common thread is speed with mechanistic accountability: prioritize promising candidates quickly while still understanding why they work.
 
 My current work focuses on:
-- DEL hit triage and small-molecule design using Python, RDKit, OpenEye, clustering, enrichment analysis, and Spotfire dashboards.
+- Molecular modeling, including MD simulation, molecular docking, QM/MM, enhanced sampling, and FEP.
+- Cheminformatics, including RDKit, chemical dataset curation, DEL hit triage, MOE, Open Babel, OpenEye, and Spotfire.
+- Machine learning for molecules, including PyTorch, XGBoost, LightGBM, PEFT, model evaluation, and ensemble learning.
 - Discovering functional peptides by integrating protein language models with molecular dynamics simulations before wet-lab validation.
-- Characterizing EGFR mutation resistance mechanisms with MD, quantum chemistry, and structure-based analysis.
-- Automating reproducible HPC workflows for simulation setup, monitoring, benchmarking, and analysis.
+- Supporting computational infrastructure with Python, SQL, Google BigQuery, HPC workflows, Linux/Bash scripting, and reproducible data pipelines.
  
 Beyond my Ph.D., I am interested in roles that value translational impact, including biotech and pharma R&D, AI-for-science startups, national laboratories, and postdoctoral work focused on method development for drug discovery, protein engineering, or biomolecular design.
 
