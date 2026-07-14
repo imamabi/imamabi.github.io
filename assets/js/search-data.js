@@ -394,9 +394,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-novel-peptide-sequence-selection-using-plms",
-          title: 'Novel Peptide Sequence Selection using PLMs',
-          description: "Identifying diverse peptide sequences from a high-throughput screening of a microbiome library.",
+          section: "News",},{id: "projects-integrating-protein-language-model-and-md-simulation-to-discover-functional-peptides",
+          title: 'Integrating Protein Language Model and MD Simulation to discover functional peptides',
+          description: "Combining protein language models and molecular dynamics to discover and validate functional peptides from microbiome libraries.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/01_ml_peptide_selection/";
             },},{id: "projects-md-validation-of-antibiofouling-peptides",
@@ -409,14 +409,14 @@ ninja.data = [{
           description: "Developing a computational model to accelerate the discovery of novel antibiofouling peptides.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/03_ml_screening_model/";
-            },},{id: "projects-ensemble-learning-for-overcoming-drug-resistance-in-egfr",
-          title: 'Ensemble Learning for Overcoming Drug Resistance in EGFR',
-          description: "Identifying FDA-approved molecules to combat resistance in L718Q and L792H mutations of EGFR.",
+            },},{id: "projects-develop-ml-ensemble-with-late-fusion-to-identify-herg-and-cyp3k-potential-binders",
+          title: 'Develop ML ensemble with late fusion to Identify herG and CYP3K potential binders...',
+          description: "Building an ensemble machine-learning pipeline with late-fusion strategies to predict potential hERG and CYP3A interactions and identify safe, non-interacting binders.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/04_ml_ensemble_egfr/";
-            },},{id: "projects-kras-solvation-and-druggability-analysis",
-          title: 'KRAS Solvation and Druggability Analysis',
-          description: "Using a multilevel modelling approach to understand molecular solvation and druggability in KRAS.",
+            },},{id: "projects-md-simulation-for-structure-function-relationship-in-egfr-kras-and-p53-proteins",
+          title: 'MD Simulation for structure-function relationship in EGFR, KRAS and p53 proteins',
+          description: "Atomistic molecular dynamics studies to investigate structure–function relationships and mutation-induced effects in EGFR, KRAS, and p53.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/05_md_kras_solvation/";
             },},{id: "projects-ice-growth-inhibition-by-antifreeze-peptides",
@@ -429,11 +429,16 @@ ninja.data = [{
           description: "Investigating nucleotide binding affinities in KRAS variants using free energy calculations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/07_md_alchemical_kras/";
-            },},{id: "projects-molecular-docking-for-egfr-inhibitor-discovery",
-          title: 'Molecular Docking for EGFR Inhibitor Discovery',
-          description: "Retrospective and prospective docking of small molecules to discover EGFR mutant inhibitors.",
+            },},{id: "projects-multi-study-workflow-docking-md-qmmm-to-prioritize-small-molecules-as-potential-egfr-inhibitors",
+          title: 'Multi-study workflow (Docking, MD, QMMM) to prioritize small molecules as potential EGFR inhibitors...',
+          description: "An integrated workflow combining docking, molecular dynamics, and QM/MM refinement to rank and prioritize small molecules against EGFR variants.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/08_md_docking_egfr/";
+            },},{id: "projects-energeom-energy-geometric-based-e7-descriptors-for-bioactive-ligands",
+          title: 'EnerGeom - Energy/Geometric based E7 descriptors for bioactive ligands',
+          description: "Development of EnerGeom E7 descriptors combining energetic and geometric features to characterize and predict bioactivity of small molecules.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/09_energeom/";
             },},{id: "projects-aiche-2023",
           title: 'AIChE 2023',
           description: "A talk on mechanistic insight on how certain mutations induce drug resistance in EGFR.",
