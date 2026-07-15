@@ -2,14 +2,14 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Selected computational chemistry projects spanning cheminformatics, molecular simulation, machine learning, and molecular discovery.
+description: Five core computational chemistry projects spanning protein language models, molecular simulation, ML ensembles, EGFR inhibitor prioritization, and ligand descriptors.
 nav: true
 nav_order: 3
-display_categories: [Machine Learning, Molecular Modeling]
+display_categories: [Machine Learning, Molecular Modeling, Cheminformatics]
 horizontal: false
 ---
 
-These projects highlight the core workflows I use: building molecular-data pipelines, validating candidates with atomistic simulation, and translating chemical mechanisms into testable hypotheses.
+These five projects highlight my core workflows: discovering functional peptides with protein language models and MD, modeling structure-function relationships in cancer proteins, developing late-fusion ML ensembles, prioritizing EGFR inhibitors with docking/MD/QM-MM, and building ligand descriptors for bioactivity prediction.
 
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}

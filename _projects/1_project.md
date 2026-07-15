@@ -1,5 +1,6 @@
 ---
 layout: page
+published: false
 title: AIChE 2023
 description: A talk on mechanistic insight on how certain mutations induce drug resistance in EGFR.
 img: assets/img/talk2.jpg

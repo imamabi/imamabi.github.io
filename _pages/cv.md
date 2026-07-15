@@ -5,7 +5,7 @@ title: CV
 nav: true
 nav_order: 5
 cv_pdf: resume.pdf
-description: Computational chemistry, cheminformatics, molecular modeling, AI-enabled design, and selected professional training.
+description: Computational chemistry, molecular modeling, cheminformatics, and ML for molecular discovery.
 toc:
   sidebar: left
 ---

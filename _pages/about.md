@@ -30,7 +30,7 @@ latest_posts:
 <div class="home-hero">
   <p class="eyebrow">CADD + molecular data science</p>
   <p class="lede">
-    I build computational pipelines that combine molecular modeling, cheminformatics, and machine learning to accelerate DEL hit triage, peptide discovery, and drug-resistance mechanism studies.
+    I build computational pipelines that combine molecular modeling, cheminformatics, and machine learning to accelerate functional peptide discovery, cancer-protein mechanism studies, and small-molecule prioritization.
   </p>
   <div class="hero-actions">
     <a class="btn-portfolio" href="{{ '/projects/' | relative_url }}">View projects</a>
@@ -75,7 +75,7 @@ latest_posts:
   </div>
   <div>
     <span>500M</span>
-    <p>compounds triaged toward about 1,000 prioritized SOS1/2 candidates</p>
+    <p>compounds triaged to about 1,000 prioritized candidates</p>
   </div>
   <div>
     <span>&lt;1 min</span>
@@ -87,19 +87,18 @@ latest_posts:
   </div>
 </div>
 
-I'm Ibrahim Imam, a Ph.D. candidate in Chemical Engineering at the University of Kentucky in Lexington, KY. I specialize in computational chemistry, cheminformatics, molecular data science, and AI/ML for drug discovery. I recently completed a Cheminformatics Co-op at GSK, where I supported DNA-encoded library hit triage, chemical data workflows, and medicinal chemistry decision-making.
+I'm Ibrahim Imam, a Ph.D. candidate in Chemical Engineering at the University of Kentucky in Lexington, KY. I specialize in computational chemistry, cheminformatics, molecular data science, and AI/ML for molecular discovery. I recently completed a Cheminformatics Co-op at GSK, where I supported DNA-encoded library hit triage, chemical data workflows, and medicinal chemistry decision-making.
 
 I develop hybrid pipelines that connect structure-based modeling, including docking, molecular dynamics, enhanced sampling, QM/MM, and free-energy calculations, with modern machine learning and cheminformatics. The common thread is speed with mechanistic accountability: prioritize promising candidates quickly while still understanding why they work.
 
 My current work focuses on:
-- Molecular modeling, including MD simulation, molecular docking, QM/MM, enhanced sampling, and FEP.
-- Cheminformatics, including RDKit, chemical dataset curation, DEL hit triage, MOE, OpenBabel, OpenEye, and TIBCO Spotfire.
-- Machine learning for molecules, including PyTorch, XGBoost, LightGBM, PEFT, model evaluation, and ensemble learning.
-- Discovering functional peptides by integrating protein language models with molecular dynamics simulations before wet-lab validation.
-- Supporting computational infrastructure with Python, SQL, Google BigQuery, HPC workflows, Linux/Bash scripting, and reproducible data pipelines.
+- Integrating protein language models with MD simulations to discover functional peptides.
+- Modeling structure-function relationships in EGFR, KRAS, and p53 with atomistic MD.
+- Developing late-fusion ML ensembles for hERG and CYP3K binder identification.
+- Combining docking, MD, and QM/MM to prioritize small molecules as potential EGFR inhibitors.
+- Building EnerGeom E7 descriptors for geometry-aware and energy-aware bioactive ligand modeling.
  
-Beyond my Ph.D., I am interested in roles that value translational impact, including biotech and pharma R&D, AI-for-science startups, national laboratories, and postdoctoral work focused on method development for drug discovery, protein engineering, or biomolecular design.
-
+I am interested in roles that value translational impact, including biotech and pharma R&D, AI-for-science startups, national laboratories, and postdoctoral work focused on method development for drug discovery, protein engineering, or biomolecular design.
 
 When I am not modelling or coding, I enjoy:
 - Hiking

@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description: List of my publications starting with the latest.
+description: Publication records from Google Scholar, filtered to work from 2003 to present.
 nav: true
 nav_order: 2
 ---

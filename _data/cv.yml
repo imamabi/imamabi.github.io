@@ -92,18 +92,19 @@
 - title: Selected Projects & Research Highlights
   type: list
   contents:
-    - "EGFR resistance modeling: MD simulation, molecular docking, and QM/MM calculations to characterize resistance mechanisms and prioritize 12 candidate compounds."
-    - "KRAS free-energy analysis: alchemical FEP workflows to quantify mutation-dependent GTP/GDP binding."
-    - "Functional peptides: protein language models with molecular dynamics to discover antifreeze and antibiofouling peptides."
-    - "DEL hit triage: cheminformatics, hit-calling analysis, SQL/BigQuery retrieval, and ensemble ML for prioritizing target-specific chemical series."
+    - "Functional peptides: integrating protein language models and MD simulation to discover antifreeze and antibiofouling candidates."
+    - "Cancer protein dynamics: MD simulations for structure-function relationships in EGFR, KRAS, and p53."
+    - "Late-fusion ML ensembles: identifying potential hERG and CYP3K binders from molecular features and model outputs."
+    - "EGFR inhibitor prioritization: docking, MD, and QM/MM workflow for small-molecule ranking."
+    - "EnerGeom: energy/geometric E7 descriptors for bioactive ligand modeling."
 
 - title: Selected Publications
   type: list
   contents:
-    - "Imam I.A., et al. Discovering naturally occurring antifreeze peptides from microbiome by integrating protein language models and molecular dynamics simulation. Journal of Materials Chemistry B, 2026."
-    - "Imam I.A., et al. In-Silico Predictions of Drug Resistance in Lung Cancers with EGFR Mutation. PASC '25, 2025."
-    - "Imam I.A., et al. L858R/L718Q and L858R/L792H mutations of EGFR inducing resistance against osimertinib. Proteins: Structure, Function, and Bioinformatics, 2025."
-    - "Imam I.A., et al. Integrating protein language model and molecular dynamics simulations to discover antibiofouling peptides. Langmuir, 2024."
+    - "Li C., et al. Phosphorylation of AHR by PLK1 promotes metastasis of LUAD via DIO2-TH signaling. PLoS Genetics, 2023."
+    - "Imam I.A., et al. L858R/L718Q and L858R/L792H mutations of EGFR inducing resistance against osimertinib by forming additional hydrogen bonds. Proteins: Structure, Function, and Bioinformatics, 2024."
+    - "Imam I.A. and Shao Q. Effect of mutation on dynamic conformations and druggability of KRAS protein. AIChE Annual Meeting, 2024."
+    - "Imam I.A., et al. In-silico pipeline to discover small molecules overcoming mutation induced drug resistance for EGFR. AIChE Annual Meeting, 2023."
 
 - title: Training & Workshops
   type: time_table

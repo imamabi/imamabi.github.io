@@ -1,5 +1,6 @@
 ---
 layout: page
+published: false
 title: Markey Cancer Center Research Day (MCCRD)
 description: A poster presentation titled L718Q and L792H Mutations of EGFR Induced Drug Resistance by Forming Additional Hydrogen Bond in the Active Pocket. 
 img: assets/img/poster1.jpg
