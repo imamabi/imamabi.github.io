@@ -11,21 +11,21 @@ ninja.data = [{
     },
   },{id: "nav-publications",
           title: "Publications",
-          description: "List of my publications starting with the latest.",
+          description: "Publication records from Google Scholar, filtered to work from 2003 to present.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
           title: "Projects",
-          description: "Selected computational chemistry projects spanning cheminformatics, molecular simulation, machine learning, and molecular discovery.",
+          description: "Six core computational chemistry projects across machine learning, molecular modeling, and cheminformatics.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Computational chemistry, cheminformatics, molecular modeling, AI-enabled design, and selected professional training.",
+          description: "Computational chemistry, molecular modeling, cheminformatics, and ML for molecular discovery.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
@@ -396,27 +396,17 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-integrating-protein-language-model-and-md-simulation-to-discover-functional-peptides",
           title: 'Integrating Protein Language Model and MD Simulation to discover functional peptides',
-          description: "Combining protein language models and molecular dynamics to discover and validate functional peptides from microbiome libraries.",
+          description: "Combining protein language models and molecular dynamics to discover and validate antifreeze and antibiofouling functional peptides.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/01_ml_peptide_selection/";
-            },},{id: "projects-md-validation-of-antibiofouling-peptides",
-          title: 'MD Validation of Antibiofouling Peptides',
-          description: "Validating the interfacial properties of computationally predicted antibiofouling peptides.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/02_md_validation/";
-            },},{id: "projects-high-throughput-screening-for-antibiofouling-peptides",
-          title: 'High-Throughput Screening for Antibiofouling Peptides',
-          description: "Developing a computational model to accelerate the discovery of novel antibiofouling peptides.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/03_ml_screening_model/";
             },},{id: "projects-develop-ml-ensemble-with-late-fusion-to-identify-herg-and-cyp3k-potential-binders",
-          title: 'Develop ML ensemble with late fusion to Identify herG and CYP3K potential binders...',
-          description: "Building an ensemble machine-learning pipeline with late-fusion strategies to predict potential hERG and CYP3A interactions and identify safe, non-interacting binders.",
+          title: 'Develop ML ensemble with late fusion to identify hERG and CYP3K potential binders...',
+          description: "Building a late-fusion ensemble machine-learning pipeline to identify potential hERG and CYP3K binders from molecular features and model outputs.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/04_ml_ensemble_egfr/";
             },},{id: "projects-md-simulation-for-structure-function-relationship-in-egfr-kras-and-p53-proteins",
           title: 'MD Simulation for structure-function relationship in EGFR, KRAS and p53 proteins',
-          description: "Atomistic molecular dynamics studies to investigate structure–function relationships and mutation-induced effects in EGFR, KRAS, and p53.",
+          description: "Atomistic molecular dynamics studies of structure-function relationships and mutation-induced effects in EGFR, KRAS, and p53.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/05_md_kras_solvation/";
             },},{id: "projects-ice-growth-inhibition-by-antifreeze-peptides",
@@ -429,61 +419,16 @@ ninja.data = [{
           description: "Investigating nucleotide binding affinities in KRAS variants using free energy calculations.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/07_md_alchemical_kras/";
-            },},{id: "projects-multi-study-workflow-docking-md-qmmm-to-prioritize-small-molecules-as-potential-egfr-inhibitors",
-          title: 'Multi-study workflow (Docking, MD, QMMM) to prioritize small molecules as potential EGFR inhibitors...',
-          description: "An integrated workflow combining docking, molecular dynamics, and QM/MM refinement to rank and prioritize small molecules against EGFR variants.",
+            },},{id: "projects-multi-study-workflow-docking-md-qm-mm-to-prioritize-small-molecules-as-potential-egfr-inhibitors",
+          title: 'Multi-study workflow (Docking, MD, QM/MM) to prioritize small molecules as potential EGFR inhibitors...',
+          description: "An integrated workflow combining docking, molecular dynamics, and QM/MM refinement to rank small molecules as potential EGFR inhibitors.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/08_md_docking_egfr/";
-            },},{id: "projects-energeom-energy-geometric-based-e7-descriptors-for-bioactive-ligands",
-          title: 'EnerGeom - Energy/Geometric based E7 descriptors for bioactive ligands',
-          description: "Development of EnerGeom E7 descriptors combining energetic and geometric features to characterize and predict bioactivity of small molecules.",
+            },},{id: "projects-energeom-energy-geometric-e7-descriptors-for-small-molecule-featurization",
+          title: 'EnerGeom - Energy/Geometric E7 Descriptors for Small-Molecule Featurization',
+          description: "Development of EnerGeom E7 descriptors that combine energetic and geometric features to featurize small molecules for machine learning.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/09_energeom/";
-            },},{id: "projects-aiche-2023",
-          title: 'AIChE 2023',
-          description: "A talk on mechanistic insight on how certain mutations induce drug resistance in EGFR.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-markey-cancer-center-research-day-mccrd",
-          title: 'Markey Cancer Center Research Day (MCCRD)',
-          description: "A poster presentation titled L718Q and L792H Mutations of EGFR Induced Drug Resistance by Forming Additional Hydrogen Bond in the Active Pocket.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
             },},{
         id: 'social-email',
         title: 'email',

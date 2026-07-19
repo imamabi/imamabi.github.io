@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" font-family="Helvetica, Arial, sans-serif">
+  <rect x="1" y="1" width="638" height="418" fill="#ffffff" stroke="#0f766e" stroke-width="3"/>
+
+  <text x="320" y="42" text-anchor="middle" font-size="22" font-weight="700" fill="#1f2937">Docking &#8594; MD &#8594; QM/MM Workflow</text>
+
+  <!-- Stage 1: Docking -->
+  <rect x="30" y="80" width="150" height="90" rx="8" fill="#ffffff" stroke="#1f2937" stroke-width="2.5"/>
+  <text x="105" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#1f2937">Docking</text>
+  <text x="105" y="138" text-anchor="middle" font-size="12.5" fill="#4b5563">High-throughput</text>
+  <text x="105" y="154" text-anchor="middle" font-size="12.5" fill="#4b5563">virtual screening</text>
+
+  <!-- Arrow 1 -->
+  <line x1="180" y1="125" x2="218" y2="125" stroke="#0f766e" stroke-width="3"/>
+  <polygon points="218,116 236,125 218,134" fill="#0f766e"/>
+
+  <!-- Stage 2: MD -->
+  <rect x="236" y="80" width="150" height="90" rx="8" fill="#ffffff" stroke="#1f2937" stroke-width="2.5"/>
+  <text x="311" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#1f2937">MD</text>
+  <text x="311" y="138" text-anchor="middle" font-size="12.5" fill="#4b5563">Binding stability &amp;</text>
+  <text x="311" y="154" text-anchor="middle" font-size="12.5" fill="#4b5563">induced-fit effects</text>
+
+  <!-- Arrow 2 -->
+  <line x1="386" y1="125" x2="424" y2="125" stroke="#0f766e" stroke-width="3"/>
+  <polygon points="424,116 442,125 424,134" fill="#0f766e"/>
+
+  <!-- Stage 3: QM/MM -->
+  <rect x="442" y="80" width="150" height="90" rx="8" fill="#ffffff" stroke="#1f2937" stroke-width="2.5"/>
+  <text x="517" y="115" text-anchor="middle" font-size="17" font-weight="700" fill="#1f2937">QM/MM</text>
+  <text x="517" y="138" text-anchor="middle" font-size="12.5" fill="#4b5563">Binding-energy</text>
+  <text x="517" y="154" text-anchor="middle" font-size="12.5" fill="#4b5563">refinement</text>
+
+  <!-- Funnel connecting all three down to output -->
+  <line x1="105" y1="170" x2="270" y2="240" stroke="#9ca3af" stroke-width="2"/>
+  <line x1="311" y1="170" x2="311" y2="240" stroke="#9ca3af" stroke-width="2"/>
+  <line x1="517" y1="170" x2="370" y2="240" stroke="#9ca3af" stroke-width="2"/>
+
+  <!-- Output trapezoid -->
+  <polygon points="180,240 460,240 420,300 220,300" fill="#ffffff" stroke="#0f766e" stroke-width="2.5"/>
+  <text x="320" y="276" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2937">Prioritized EGFR</text>
+  <text x="320" y="294" text-anchor="middle" font-size="16" font-weight="700" fill="#1f2937">inhibitor candidates</text>
+
+  <text x="320" y="340" text-anchor="middle" font-size="13" fill="#6b7280">Wild-type and clinically resistant EGFR mutants</text>
+  <text x="320" y="360" text-anchor="middle" font-size="12" fill="#9ca3af">Multi-study pipeline for small-molecule prioritization</text>
+</svg>
