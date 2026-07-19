@@ -48,17 +48,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/plotly/";
           
         },
-      },{id: "post-a-post-with-image-galleries",
-        
-          title: "a post with image galleries",
-        
-        description: "this is what included image galleries could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/photo-gallery/";
-          
-        },
       },{id: "post-a-post-with-tabs",
         
           title: "a post with tabs",
@@ -112,17 +101,6 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2024/code-diff/";
-          
-        },
-      },{id: "post-a-post-with-advanced-image-components",
-        
-          title: "a post with advanced image components",
-        
-        description: "this is what advanced image components could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/advanced-images/";
           
         },
       },{id: "post-a-post-with-vega-lite",
@@ -279,17 +257,6 @@ ninja.data = [{
             window.location.href = "/blog/2022/giscus-comments/";
           
         },
-      },{id: "post-a-post-with-redirect",
-        
-          title: "a post with redirect",
-        
-        description: "you can also redirect to assets like pdf",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/assets/pdf/example_pdf.pdf";
-          
-        },
       },{id: "post-a-post-with-diagrams",
         
           title: "a post with diagrams",
@@ -356,17 +323,6 @@ ninja.data = [{
             window.location.href = "/blog/2015/code/";
           
         },
-      },{id: "post-a-post-with-images",
-        
-          title: "a post with images",
-        
-        description: "this is what included images could look like",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2015/images/";
-          
-        },
       },{id: "post-a-post-with-formatting-and-links",
         
           title: "a post with formatting and links",
@@ -378,12 +334,7 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
+      },{id: "news-a-simple-inline-announcement",
           title: 'A simple inline announcement.',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
