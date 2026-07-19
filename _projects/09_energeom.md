@@ -1,10 +1,10 @@
 ---
 layout: page
-title: EnerGeom - Energy/Geometric based E7 descriptors for bioactive ligands
-description: Development of EnerGeom E7 descriptors that combine energetic and geometric features to characterize bioactive ligands.
-img: /assets/img/proj2.gif
+title: EnerGeom - Energy/Geometric E7 Descriptors for Small-Molecule Featurization
+description: Development of EnerGeom E7 descriptors that combine energetic and geometric features to featurize small molecules for machine learning.
+img: /assets/img/proj9-energeom.svg
 importance: 1
 category: Cheminformatics
 ---
 
-EnerGeom introduces a compact E7 descriptor set that fuses energy-based terms with geometric features such as ligand shape, conformational spread, and RMSD-derived flexibility. The descriptors are designed for downstream classification and regression tasks where bioactive ligands need representations that preserve both energetic plausibility and geometry-aware chemical diversity.
+EnerGeom introduces a compact E7 descriptor set that fuses energy-based terms with geometric features such as molecular shape, conformational spread, and RMSD-derived flexibility. The descriptors give small molecules representations that preserve both energetic plausibility and geometry-aware chemical diversity, suited for downstream classification and regression tasks in molecular machine learning.

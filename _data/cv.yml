@@ -21,7 +21,7 @@
 - title: Summary
   type: list
   contents:
-    - Ph.D. candidate in Chemical Engineering specializing in computational chemistry, cheminformatics, molecular data science, and AI/ML for drug discovery.
+    - Ph.D. candidate in Chemical Engineering specializing in computational chemistry, cheminformatics, molecular data science, and AI/ML for molecular discovery.
     - Experienced in MD simulation, molecular docking, QM/MM, alchemical free-energy calculations, enhanced sampling, and custom force-field parameterization.
     - Completed GSK industry co-op experience supporting chemical data workflows, DEL hit triage, medicinal chemistry decision-making, SQL/BigQuery retrieval, and ML model design.
 
@@ -88,23 +88,27 @@
     - title: Supporting Computational Toolkit
       items:
         - Google BigQuery, SQL, HPC workflows, Linux/Bash scripting, Python, NumPy, Pandas, R, Git, and workflow automation
+        - Claude Code and Codex for AI-assisted scientific software development and workflow automation
 
 - title: Selected Projects & Research Highlights
   type: list
   contents:
     - "Functional peptides: integrating protein language models and MD simulation to discover antifreeze and antibiofouling candidates."
-    - "Cancer protein dynamics: MD simulations for structure-function relationships in EGFR, KRAS, and p53."
     - "Late-fusion ML ensembles: identifying potential hERG and CYP3K binders from molecular features and model outputs."
+    - "Cancer protein dynamics: MD simulations for structure-function relationships in EGFR, KRAS, and p53."
+    - "Ice growth inhibition: MD simulations of antifreeze peptide mechanisms at ice crystal surfaces."
     - "EGFR inhibitor prioritization: docking, MD, and QM/MM workflow for small-molecule ranking."
-    - "EnerGeom: energy/geometric E7 descriptors for bioactive ligand modeling."
+    - "Alchemical calculations: free-energy methods for KRAS nucleotide binding affinities."
+    - "EnerGeom: energy/geometric E7 descriptors for small-molecule featurization."
 
 - title: Selected Publications
   type: list
   contents:
-    - "Li C., et al. Phosphorylation of AHR by PLK1 promotes metastasis of LUAD via DIO2-TH signaling. PLoS Genetics, 2023."
+    - "Ihoeghian N.A., et al. Effect of protective mutation on structure and dynamics of APOE: a molecular dynamics simulation study. Physical Chemistry Chemical Physics, 2026."
+    - "Imam I.A., et al. Discovering naturally occurring antifreeze peptides from microbiome by integrating protein language models and molecular dynamics simulation. Journal of Materials Chemistry B, 2026."
+    - "Dhameri S., et al. Tuning the upper critical solution temperature of the polystyrene-terpineol system toward a low-temperature membrane formation. ACS Omega, 2025."
     - "Imam I.A., et al. L858R/L718Q and L858R/L792H mutations of EGFR inducing resistance against osimertinib by forming additional hydrogen bonds. Proteins: Structure, Function, and Bioinformatics, 2024."
-    - "Imam I.A. and Shao Q. Effect of mutation on dynamic conformations and druggability of KRAS protein. AIChE Annual Meeting, 2024."
-    - "Imam I.A., et al. In-silico pipeline to discover small molecules overcoming mutation induced drug resistance for EGFR. AIChE Annual Meeting, 2023."
+    - "Li C., et al. Phosphorylation of AHR by PLK1 promotes metastasis of LUAD via DIO2-TH signaling. PLoS Genetics, 2023."
 
 - title: Training & Workshops
   type: time_table

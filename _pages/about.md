@@ -28,9 +28,9 @@ latest_posts:
 ---
 
 <div class="home-hero">
-  <p class="eyebrow">CADD + molecular data science</p>
+  <p class="eyebrow">Molecular data science + MD simulations</p>
   <p class="lede">
-    I build computational pipelines that combine molecular modeling, cheminformatics, and machine learning to accelerate functional peptide discovery, cancer-protein mechanism studies, and small-molecule prioritization.
+    I build computational pipelines across cheminformatics, functional peptide discovery, MD-driven mechanistic insight, and small-molecule prioritization.
   </p>
   <div class="hero-actions">
     <a class="btn-portfolio" href="{{ '/projects/' | relative_url }}">View projects</a>
@@ -66,6 +66,8 @@ latest_posts:
   <span>scikit-learn</span>
   <span>TIBCO Spotfire</span>
   <span>Git</span>
+  <span>Claude Code</span>
+  <span>Codex</span>
 </div>
 
 <div class="impact-grid">
@@ -87,18 +89,18 @@ latest_posts:
   </div>
 </div>
 
-I'm Ibrahim Imam, a Ph.D. candidate in Chemical Engineering at the University of Kentucky in Lexington, KY. I specialize in computational chemistry, cheminformatics, molecular data science, and AI/ML for molecular discovery. I recently completed a Cheminformatics Co-op at GSK, where I supported DNA-encoded library hit triage, chemical data workflows, and medicinal chemistry decision-making.
+I am a Ph.D. candidate in Chemical Engineering at the University of Kentucky in Lexington, KY, specializing in computational chemistry, molecular data science, and MD simulations for molecular discovery.
 
 I develop hybrid pipelines that connect structure-based modeling, including docking, molecular dynamics, enhanced sampling, QM/MM, and free-energy calculations, with modern machine learning and cheminformatics. The common thread is speed with mechanistic accountability: prioritize promising candidates quickly while still understanding why they work.
 
 My current work focuses on:
-- Integrating protein language models with MD simulations to discover functional peptides.
-- Modeling structure-function relationships in EGFR, KRAS, and p53 with atomistic MD.
-- Developing late-fusion ML ensembles for hERG and CYP3K binder identification.
-- Combining docking, MD, and QM/MM to prioritize small molecules as potential EGFR inhibitors.
-- Building EnerGeom E7 descriptors for geometry-aware and energy-aware bioactive ligand modeling.
+- Accelerating molecular dynamics with ML and flow-matching methods.
+- Ensemble learning approaches for small-molecule prioritization.
+- PEFT-based foundation model adaptation for molecular discovery.
+- Molecular simulations and enhanced sampling for chemical and biochemical systems.
+- Free-energy methods for protein-ligand interactions.
  
-I am interested in roles that value translational impact, including biotech and pharma R&D, AI-for-science startups, national laboratories, and postdoctoral work focused on method development for drug discovery, protein engineering, or biomolecular design.
+I am interested in roles that value translational impact, including biotech and pharma R&D, AI-for-science startups, national laboratories, and postdoctoral work focused on method development for molecular discovery, protein engineering, or biomolecular design.
 
 When I am not modelling or coding, I enjoy:
 - Hiking

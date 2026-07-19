@@ -3,7 +3,7 @@ layout: page
 title: MD Simulation for structure-function relationship in EGFR, KRAS and p53 proteins
 description: Atomistic molecular dynamics studies of structure-function relationships and mutation-induced effects in EGFR, KRAS, and p53.
 img: /assets/img/Structure_function_relationship.png
-importance: 2
+importance: 1
 category: Molecular Modeling
 ---
 

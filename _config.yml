@@ -7,11 +7,11 @@ first_name: Ibrahim
 middle_name: A.
 last_name: Imam
 contact_note: "email: imamabiodunibrahim@gmail.com"
-description: Computational chemistry Ph.D. candidate in Lexington, KY, building molecular modeling, cheminformatics, and machine-learning workflows for CADD, drug discovery, and peptide materials.
+description: Computational chemistry Ph.D. candidate in Lexington, KY, building molecular data science and MD simulation workflows for molecular discovery, cancer-protein biology, and peptide materials.
 footer_text: >
   Computational molecular science portfolio. Built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>
   and hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: computational chemistry, CADD, molecular modeling, cheminformatics, molecular dynamics, docking, QM/MM, FEP, machine learning, DNA-encoded libraries, RDKit, MOE, OpenEye, XGBoost, LightGBM, PEFT, Google BigQuery, drug discovery, peptide materials
+keywords: computational chemistry, molecular data science, molecular dynamics, molecular modeling, cheminformatics, docking, QM/MM, FEP, machine learning, DNA-encoded libraries, RDKit, MOE, OpenEye, XGBoost, LightGBM, PEFT, Google BigQuery, molecular discovery, peptide materials
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

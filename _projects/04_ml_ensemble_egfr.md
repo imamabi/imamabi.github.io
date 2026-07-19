@@ -3,7 +3,7 @@ layout: page
 title: Develop ML ensemble with late fusion to identify hERG and CYP3K potential binders
 description: Building a late-fusion ensemble machine-learning pipeline to identify potential hERG and CYP3K binders from molecular features and model outputs.
 img: /assets/img/proj3.png # Path to your image
-importance: 3
+importance: 2
 category: Machine Learning
 ---
 
