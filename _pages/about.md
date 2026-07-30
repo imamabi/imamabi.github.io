@@ -10,7 +10,6 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Ph.D. Candidate, University of Kentucky</p>
-    <p>Completed GSK Cheminformatics Co-op</p>
     <p>Lexington, KY</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
