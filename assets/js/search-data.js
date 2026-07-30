@@ -352,7 +352,7 @@ ninja.data = [{
               window.location.href = "/projects/01_ml_peptide_selection/";
             },},{id: "projects-develop-ml-ensemble-with-late-fusion-to-identify-herg-and-cyp3k-potential-binders",
           title: 'Develop ML ensemble with late fusion to identify hERG and CYP3K potential binders...',
-          description: "Building a late-fusion ensemble machine-learning pipeline to identify potential hERG and CYP3K binders from molecular features and model outputs.",
+          description: "Building a late-fusion ensemble machine-learning pipeline to identify potential hERG and CYP3A4 binders from molecular features and model outputs.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/04_ml_ensemble_egfr/";
             },},{id: "projects-md-simulation-for-structure-function-relationship-in-egfr-kras-and-p53-proteins",
@@ -367,7 +367,7 @@ ninja.data = [{
               window.location.href = "/projects/06_md_ice_inhibition/";
             },},{id: "projects-alchemical-calculations-for-kras-nucleotide-binding",
           title: 'Alchemical Calculations for KRAS Nucleotide Binding',
-          description: "Investigating nucleotide binding affinities in KRAS variants using free energy calculations.",
+          description: "Free-energy calculations comparing GDP/GTP binding in KRAS wild-type and the G12D, G12C, and G12V oncogenic mutants.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/07_md_alchemical_kras/";
             },},{id: "projects-multi-study-workflow-docking-md-qm-mm-to-prioritize-small-molecules-as-potential-egfr-inhibitors",

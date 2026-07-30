@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" font-family="Helvetica, Arial, sans-serif">
+  <rect x="1" y="1" width="718" height="418" fill="#ffffff" stroke="#0f766e" stroke-width="3"/>
+
+  <text x="360" y="38" text-anchor="middle" font-size="20" font-weight="700" fill="#1f2937">PLM Screening + MD Validation for Functional Peptide Discovery</text>
+
+  <!-- Stage 1: Microbiome library -->
+  <rect x="24" y="70" width="140" height="92" rx="8" fill="#ffffff" stroke="#1f2937" stroke-width="2.5"/>
+  <text x="94" y="102" text-anchor="middle" font-size="14.5" font-weight="700" fill="#1f2937">Microbiome</text>
+  <text x="94" y="120" text-anchor="middle" font-size="14.5" font-weight="700" fill="#1f2937">sequence library</text>
+  <text x="94" y="142" text-anchor="middle" font-size="11.5" fill="#4b5563">tens of thousands</text>
+  <text x="94" y="156" text-anchor="middle" font-size="11.5" fill="#4b5563">of candidate peptides</text>
+
+  <line x1="164" y1="116" x2="196" y2="116" stroke="#0f766e" stroke-width="3"/>
+  <polygon points="196,107 214,116 196,125" fill="#0f766e"/>
+
+  <!-- Stage 2: PLM ensemble -->
+  <rect x="214" y="70" width="150" height="92" rx="8" fill="#ffffff" stroke="#1f2937" stroke-width="2.5"/>
+  <text x="289" y="98" text-anchor="middle" font-size="14.5" font-weight="700" fill="#1f2937">PLM ensemble</text>
+  <text x="289" y="118" text-anchor="middle" font-size="11.5" fill="#4b5563">10 adapter-tuned</text>
+  <text x="289" y="133" text-anchor="middle" font-size="11.5" fill="#4b5563">ESM2 classifiers</text>
+  <text x="289" y="148" text-anchor="middle" font-size="11.5" fill="#4b5563">+ random-forest</text>
+  <text x="289" y="162" text-anchor="middle" font-size="11.5" fill="#4b5563">meta-learner</text>
+
+  <line x1="364" y1="116" x2="396" y2="116" stroke="#0f766e" stroke-width="3"/>
+  <polygon points="396,107 414,116 396,125" fill="#0f766e"/>
+
+  <!-- Stage 3: Candidate shortlist -->
+  <rect x="414" y="70" width="140" height="92" rx="8" fill="#ffffff" stroke="#1f2937" stroke-width="2.5"/>
+  <text x="484" y="102" text-anchor="middle" font-size="14.5" font-weight="700" fill="#1f2937">Ranked</text>
+  <text x="484" y="120" text-anchor="middle" font-size="14.5" font-weight="700" fill="#1f2937">candidates</text>
+  <text x="484" y="142" text-anchor="middle" font-size="11.5" fill="#4b5563">top-scoring, sequence-</text>
+  <text x="484" y="156" text-anchor="middle" font-size="11.5" fill="#4b5563">diverse shortlist</text>
+
+  <line x1="554" y1="116" x2="586" y2="116" stroke="#0f766e" stroke-width="3"/>
+  <polygon points="586,107 604,116 586,125" fill="#0f766e"/>
+
+  <!-- Stage 4: MD validation -->
+  <rect x="604" y="70" width="92" height="92" rx="8" fill="#ffffff" stroke="#1f2937" stroke-width="2.5"/>
+  <text x="650" y="102" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1f2937">Explicit-</text>
+  <text x="650" y="118" text-anchor="middle" font-size="13.5" font-weight="700" fill="#1f2937">solvent MD</text>
+  <text x="650" y="140" text-anchor="middle" font-size="10.5" fill="#4b5563">structure &amp;</text>
+  <text x="650" y="153" text-anchor="middle" font-size="10.5" fill="#4b5563">interface</text>
+
+  <!-- Funnel down -->
+  <line x1="94" y1="162" x2="270" y2="230" stroke="#9ca3af" stroke-width="2"/>
+  <line x1="289" y1="162" x2="320" y2="230" stroke="#9ca3af" stroke-width="2"/>
+  <line x1="484" y1="162" x2="420" y2="230" stroke="#9ca3af" stroke-width="2"/>
+  <line x1="650" y1="162" x2="470" y2="230" stroke="#9ca3af" stroke-width="2"/>
+
+  <!-- Split output: antifreeze / antibiofouling -->
+  <rect x="150" y="230" width="190" height="80" rx="8" fill="#eff6ff" stroke="#0f766e" stroke-width="2.5"/>
+  <text x="245" y="262" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2937">Antifreeze</text>
+  <text x="245" y="282" text-anchor="middle" font-size="12" fill="#4b5563">ice-surface binding &amp;</text>
+  <text x="245" y="297" text-anchor="middle" font-size="12" fill="#4b5563">growth-front disruption</text>
+
+  <rect x="380" y="230" width="190" height="80" rx="8" fill="#eff6ff" stroke="#0f766e" stroke-width="2.5"/>
+  <text x="475" y="262" text-anchor="middle" font-size="15" font-weight="700" fill="#1f2937">Antibiofouling</text>
+  <text x="475" y="282" text-anchor="middle" font-size="12" fill="#4b5563">hydration-layer /</text>
+  <text x="475" y="297" text-anchor="middle" font-size="12" fill="#4b5563">nonspecific-adsorption resistance</text>
+
+  <text x="360" y="345" text-anchor="middle" font-size="13" fill="#6b7280">Journal of Materials Chemistry B (2026) &amp; Langmuir (2025)</text>
+  <text x="360" y="365" text-anchor="middle" font-size="12" fill="#9ca3af">Same PLM + MD pipeline applied to two functional-peptide discovery problems</text>
+</svg>
